@@ -29,35 +29,6 @@
       </tags>
   </entry>
   <entry>
-    <title>git全局配置</title>
-    <url>/2020/05/25/git%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE/</url>
-    <content><![CDATA[<h2 id="git全局配置"><a href="#git全局配置" class="headerlink" title="git全局配置"></a>git全局配置</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config -l  &#x2F;&#x2F;查看配置信息  ！是L小写</span><br><span class="line">$ git config --globla -l  &#x2F;&#x2F;查看全局配置信息</span><br></pre></td></tr></table></figure>
-
-<p>如果没有用户名和邮箱<br><img src="/images/pasted-1.png" alt="upload successful"></p>
-]]></content>
-      <categories>
-        <category>git</category>
-      </categories>
-      <tags>
-        <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>express允许跨域</title>
-    <url>/2020/05/24/express%E5%85%81%E8%AE%B8%E8%B7%A8%E5%9F%9F/</url>
-    <content><![CDATA[<p>app.js里</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">router.all(<span class="string">'*'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res, next</span>) </span>&#123;</span><br><span class="line">   res.header(<span class="string">"Access-Control-Allow-Origin"</span>, <span class="string">"*"</span>);</span><br><span class="line">   res.header(<span class="string">"Access-Control-Allow-Headers"</span>, <span class="string">"X-Requested-With"</span>);</span><br><span class="line">   res.header(<span class="string">"Access-Control-Allow-Methods"</span>,<span class="string">"PUT,POST,GET,DELETE,OPTIONS"</span>);</span><br><span class="line">   res.header(<span class="string">"X-Powered-By"</span>,<span class="string">' 3.2.1'</span>);</span><br><span class="line">   res.header(<span class="string">"Content-Type"</span>, <span class="string">"application/json;charset=utf-8"</span>);</span><br><span class="line">   next();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>node</category>
-      </categories>
-      <tags>
-        <tag>express</tag>
-        <tag>node</tag>
-        <tag>js</tag>
-        <tag>跨域</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>express-generator的使用</title>
     <url>/2020/05/24/express-generator%E7%9A%84%E4%BD%BF%E7%94%A8/</url>
     <content><![CDATA[<p>1.全局安装</p>
@@ -72,9 +43,24 @@
         <category>node</category>
       </categories>
       <tags>
-        <tag>express</tag>
-        <tag>node</tag>
         <tag>js</tag>
+        <tag>node</tag>
+        <tag>express</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>express允许跨域</title>
+    <url>/2020/05/24/express%E5%85%81%E8%AE%B8%E8%B7%A8%E5%9F%9F/</url>
+    <content><![CDATA[<p>app.js里</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">router.all(<span class="string">'*'</span>, <span class="function"><span class="keyword">function</span>(<span class="params">req, res, next</span>) </span>&#123;</span><br><span class="line">   res.header(<span class="string">"Access-Control-Allow-Origin"</span>, <span class="string">"*"</span>);</span><br><span class="line">   res.header(<span class="string">"Access-Control-Allow-Headers"</span>, <span class="string">"X-Requested-With"</span>);</span><br><span class="line">   res.header(<span class="string">"Access-Control-Allow-Methods"</span>,<span class="string">"PUT,POST,GET,DELETE,OPTIONS"</span>);</span><br><span class="line">   res.header(<span class="string">"X-Powered-By"</span>,<span class="string">' 3.2.1'</span>);</span><br><span class="line">   res.header(<span class="string">"Content-Type"</span>, <span class="string">"application/json;charset=utf-8"</span>);</span><br><span class="line">   next();</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>node</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
+        <tag>node</tag>
+        <tag>express</tag>
+        <tag>跨域</tag>
       </tags>
   </entry>
   <entry>
@@ -90,9 +76,23 @@
         <category>node</category>
       </categories>
       <tags>
-        <tag>express</tag>
         <tag>node</tag>
+        <tag>express</tag>
         <tag>mysql</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>git全局配置</title>
+    <url>/2020/05/25/git%E5%85%A8%E5%B1%80%E9%85%8D%E7%BD%AE/</url>
+    <content><![CDATA[<h2 id="git全局配置"><a href="#git全局配置" class="headerlink" title="git全局配置"></a>git全局配置</h2><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git config -l  &#x2F;&#x2F;查看配置信息  ！是L小写</span><br><span class="line">$ git config --globla -l  &#x2F;&#x2F;查看全局配置信息</span><br></pre></td></tr></table></figure>
+
+<p>如果没有用户名和邮箱<br><img src="/images/pasted-1.png" alt="upload successful"></p>
+]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
       </tags>
   </entry>
   <entry>
@@ -105,18 +105,6 @@
       </categories>
       <tags>
         <tag>git</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>hexo常用命令</title>
-    <url>/2020/05/31/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
-    <content><![CDATA[<p><img src="/images/pasted-10.png" alt="upload successful"></p>
-]]></content>
-      <categories>
-        <category>hexo</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
       </tags>
   </entry>
   <entry>
@@ -149,6 +137,19 @@
       </tags>
   </entry>
   <entry>
+    <title>hexo常用命令</title>
+    <url>/2020/05/31/hexo%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</url>
+    <content><![CDATA[<p><img src="/images/pasted-10.png" alt="upload successful"><br><code>hexo g//本地打包</code></p>
+<p><code>hexo clean//清缓存</code></p>
+]]></content>
+      <categories>
+        <category>hexo</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>jq平滑锚点过渡</title>
     <url>/2020/05/24/jq%E5%B9%B3%E6%BB%91%E9%94%9A%E7%82%B9%E8%BF%87%E6%B8%A1/</url>
     <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">$(<span class="string">'.aaa'</span>).click(<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">    $(<span class="string">'html, body'</span>).animate(&#123;</span><br><span class="line">        scrollTop: $($.attr(<span class="keyword">this</span>, <span class="string">'href'</span>)).offset().top</span><br><span class="line">    &#125;, <span class="number">800</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">&#125;);</span><br></pre></td></tr></table></figure>]]></content>
@@ -158,6 +159,17 @@
       <tags>
         <tag>js</tag>
         <tag>jq</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>keywords</title>
+    <url>/2020/05/24/keywords/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;meta name&#x3D;&quot;keywords&quot; content&#x3D;&quot;&quot;&gt;</span><br><span class="line"> &lt;meta name&#x3D;&quot;description&quot; content&#x3D;&quot;&quot;&gt;</span><br><span class="line">     document</span><br><span class="line">       .querySelector(&#39;meta[name&#x3D;&quot;keywords&quot;]&#39;)</span><br><span class="line">       .setAttribute(&quot;content&quot;, &quot;key&quot;);</span><br><span class="line">     document</span><br><span class="line">       .querySelector(&#39;meta[name&#x3D;&quot;description&quot;]&#39;)</span><br><span class="line">       .setAttribute(&quot;content&quot;, &quot;des&quot;);</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>杂七杂八</category>
+      </categories>
+      <tags>
+        <tag>js</tag>
       </tags>
   </entry>
   <entry>
@@ -182,17 +194,6 @@
       </tags>
   </entry>
   <entry>
-    <title>keywords</title>
-    <url>/2020/05/24/keywords/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;meta name&#x3D;&quot;keywords&quot; content&#x3D;&quot;&quot;&gt;</span><br><span class="line"> &lt;meta name&#x3D;&quot;description&quot; content&#x3D;&quot;&quot;&gt;</span><br><span class="line">     document</span><br><span class="line">       .querySelector(&#39;meta[name&#x3D;&quot;keywords&quot;]&#39;)</span><br><span class="line">       .setAttribute(&quot;content&quot;, &quot;key&quot;);</span><br><span class="line">     document</span><br><span class="line">       .querySelector(&#39;meta[name&#x3D;&quot;description&quot;]&#39;)</span><br><span class="line">       .setAttribute(&quot;content&quot;, &quot;des&quot;);</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>杂七杂八</category>
-      </categories>
-      <tags>
-        <tag>js</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>mongo刨根问底查法</title>
     <url>/2020/05/24/mongo%E5%88%A8%E6%A0%B9%E9%97%AE%E5%BA%95%E6%9F%A5%E6%B3%95/</url>
     <content><![CDATA[<p>//查找子级<br>见Caregory.js和index.js</p>
@@ -209,18 +210,46 @@
       </tags>
   </entry>
   <entry>
-    <title>mongo备份与还原</title>
-    <url>/2020/05/24/mongo%E5%A4%87%E4%BB%BD%E4%B8%8E%E8%BF%98%E5%8E%9F/</url>
-    <content><![CDATA[<p>备份数据<br>导出数据语法：<code>mongodump -h -prot -u -p -d -o</code><br>-h host 服务器ip地址（一般不写默认本机）<br>-prot   端口（一般不写默认27017）<br>-u user 账号<br>-p pwd  密码<br>-d database 数据库（不写则导出全部）<br>-o open  备份到指定目录下<br>备份全部数据库     要在bin目录下执行</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongodump -u admin -p yhq990807 -o G:\mongodb-win32-x86_64\mongodb-win32-x86_64-2012plus-4.2.3\bak</span><br></pre></td></tr></table></figure>
-<p>备份指定数据库     要在bin目录下执行</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongodump -u admin -p yhq990807 -d admin -o G:\mongodb-win32-x86_64\mongodb-win32-x86_64-2012plus-4.2.3\bak2</span><br></pre></td></tr></table></figure>
-<p>user是要备份的数据库的用户</p>
-<p>还原/导入数据<br>备份数据目录<code>mongorestore -h -prot -u -p -d --drop</code><br>-d  不写则还原全部数据<br>–drop 先删除数据库再导入，不写则直接覆盖<br>还原全部数据</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongorestore -u admin -p yhq990807 --drop G:\mongodb-win32-x86_64\mongodb-win32-x86_64-2012plus-4.2.3\bak</span><br></pre></td></tr></table></figure>
-<p>还原指定数据库</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongorestore -u admin -p yhq990807 -d test4 --drop G:\mongodb-win32-x86_64\mongodb-win32-x86_64-2012plus-4.2.3\bak2\test4</span><br></pre></td></tr></table></figure>
-<p>也是要有权限的用户操作</p>
+    <title>mongo基本用法</title>
+    <url>/2020/05/24/mongo%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</url>
+    <content><![CDATA[<p>数据库(database)  集合(collection)  数据/文档(document)</p>
+<p>查看数据库<br>语法：<code>show databases</code></p>
+<p>选择数据库<br>语法: <code>use 数据库名</code></p>
+<p>删除数据库<br>1.<code>use 数据库名</code>  先选择目标数据库<br>2.<code>db.dropDatabase()</code>  删除数据库</p>
+<p>查看集合<br>语法 <code>show collections</code></p>
+<p>创建集合<code>db.createCollection(&quot;集合名&quot;)</code></p>
+<p>删除集合<code>db.集合名.drop()</code></p>
+<p><strong>*****</strong>增<br>语法: db.集合名.insert(JSON数据)<br>如：<code>db.c1.insert({name:&quot;xiaoming&quot;})</code><br>查看集合具体内容<code>db.c1.find()</code></p>
+<p>一次插入多条数据</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">db.c1.insert([</span><br><span class="line">    &#123;</span><br><span class="line">        name:&quot;aaa&quot;,</span><br><span class="line">        age:5</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">        name:&quot;bbb&quot;,</span><br><span class="line">        age:6</span><br><span class="line">    &#125;</span><br><span class="line">])</span><br></pre></td></tr></table></figure>
+<p>一次插入10条(mongoDB底层是js支持部分js语法)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">for(var i &#x3D; 0; i &lt; 10;i++)&#123;</span><br><span class="line">    db.c1.insert(&#123;name:&quot;a&quot;+1,age:i&#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+<p><strong>*****</strong>查<br>语法：<code>db.集合名.find({条件},{查询的列})</code>   []里的内容为可选内容<br>条件 如果不写或者{}代表查询所有数据<br>     查询age=6的   {age:6}  db.c1.find({age:6})<br>查询的列（可选）<br>     不写则查全部字段<br>     {age:1} 只显示age列<br>     {age:0} 除了age列<br>     db.c1.find({age:18},{age:1})  //查询age为18，只显示age的列<br>运算符时<br> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;db.c1.find(&#123;age:&#123;$in:[5,18]&#125;&#125;) &#96;&#96;&#96; 获取年龄为5和18岁的数据</span><br><span class="line"> 运算符有</span><br><span class="line"> $gt  大于</span><br><span class="line"> $gte 大于等于</span><br><span class="line"> $lt  小于</span><br><span class="line"> $lte 小于等于</span><br><span class="line"> $ne  不等于</span><br><span class="line"> $in  in</span><br><span class="line"> $nin not in</span><br><span class="line"> </span><br><span class="line"> &#96;&#96;&#96;db.c1.find(&#123;键:&#123;运算符:值&#125;&#125;).pretty()&#96;&#96;&#96;pretty()格式化数据用的，看着方便</span><br><span class="line"></span><br><span class="line"> *********改</span><br><span class="line"> 语法: db.集合名.update(条件,新数据,是否新增,是否修改多条)</span><br><span class="line"> 是否新增(可选)：指条件匹配不到则插入数据true是插入这条数据，false是不插入  默认是不插入</span><br><span class="line"> 是否修改多条(可选)：将匹配到的数据都修改true是，默认false</span><br><span class="line"> 升级语法</span><br><span class="line"> 修改器  </span><br><span class="line"> $inc    递增</span><br><span class="line"> $rename 重命名列</span><br><span class="line"> $set    修改列值</span><br><span class="line"> $unset  删除列</span><br><span class="line"> db.集合名.update(条件,&#123;修改器:&#123;键:值&#125;&#125;)</span><br><span class="line"> 如 &#96;&#96;&#96;db.c1.update(&#123;name:&quot;bbb&quot;&#125;,&#123;$set:&#123;name:&quot;ddd&quot;&#125;&#125;)</span><br></pre></td></tr></table></figure><br> 加2岁<code>db.c1.update({name:&quot;ddd&quot;},{$inc:{age:2}})</code><br> 减<code>db.c1.update({name:&quot;ddd&quot;},{$inc:{age:-2}})</code><br>综合使用<code>db.c1.update({name:&quot;aaa&quot;},{$set:{name:&quot;abc&quot;},$inc:{age:100},$rename:{who:&quot;sex&quot;},$unset:{other:true}})</code></p>
+<p> <strong>*****</strong>删<br> 语法：<code>db.集合名.remove(条件,是否删除一条)</code><br> 是否删除一条true是是，默认false不</p>
+<p>排序<br>语法:<code>db.集合名.find().sort(JSON)</code><br>如：<code>db.ci.find().sort({age:-1})</code><br>JSON 键是以这个排列 值是 1升序  -1降序</p>
+<p>分页<br>Limit和skip<br>语法<code>：db.集合名.find().sort().skip(数字).limit(数字)</code><br>如：<code>db.ci.find().sort({age:-1}).skip(3).limit(3)</code><br>.count  统计总数量<br>skip 跳过值得数量<br>limit 限制的数量</p>
+<p>聚合查询<br>语法：<code>db.集合名.aggregate([
+    {管道:{表达式}}
+])</code><br>如：<code>db.c2.aggregate([
+    {
+        $group:{
+            _id:&quot;$sex&quot;,//以这个分组，null为不用分组
+            rs:{$sum:&quot;$age&quot;} //具体内容
+            }
+        }
+    ])</code></p>
+<pre><code><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">db.c2.aggregate(</span><br><span class="line">    [</span><br><span class="line">        &#123;</span><br><span class="line">            $group:&#123;</span><br><span class="line">                _id:&quot;$sex&quot;,</span><br><span class="line">                rs:&#123;$sum:&quot;$age&quot;&#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        ]</span><br><span class="line">    )</span><br><span class="line">db.c2.aggregate(</span><br><span class="line">    [</span><br><span class="line">        &#123;</span><br><span class="line">            $group:&#123;</span><br><span class="line">                _id:&quot;$sex&quot;,rs:&#123;$sum:1&#125;</span><br><span class="line">                &#125;</span><br><span class="line">           &#125;</span><br><span class="line">            ,</span><br><span class="line">            &#123;</span><br><span class="line">                $sort:&#123;rs:-1&#125;</span><br><span class="line">            &#125;</span><br><span class="line">        ]</span><br><span class="line">    )</span><br></pre></td></tr></table></figure></code></pre><p>！！！这里值是表的键名要加$<br>常用管道<br>$group  将集合中的文档分组，用于统计结果<br>$match  过滤数据，只要输出符合条件的文档<br>$sort   聚合数据进一步排序<br>$skip   跳过直到文档数<br>$limit  限制集合数据返回文档数</p>
+<p>常用表达式<br>$sum  综合   $sum:1同count表示总数<br>$avg  平均<br>$max  最大值<br>$min  最小值</p>
+<p>索引</p>
+<p>创建索引语法:<code>db.集合名.createIndex(待创建索引的列,(可选 额外选项))</code><br>如 <code>db.c1.createIndex({name:1})</code><br>待创建索引的列 {键:1,…,键:-1}<br>1代表升序-1代表降序 {age:1}表示创建age索引并按照升序的方式存储<br>额外选项 ：设置索引的名称或者唯一索引等等</p>
+<p>删除索引语法：<br>全部删除：<code>db.集合名.dropIndexes()</code><br>如 db.c1.dropIndex(“name_1”)<br>删除指定：<code>db.集合名.dropIndex(索引名)</code></p>
+<p>查看索引语法：<code>db.集合名.getIndexes()</code></p>
+<p>创建复合/组合索引:<code>db.集合名.creatIndex({键1:方式,键2:方式})</code></p>
+<p>创建唯一索引   //就是唯一不重复<br><code>db.集合名.createIndex(待添加的索引列,{unique:列名})</code> 列名可选</p>
+<p>分析索引<code>db.集合名.find(条件).explain(&quot;executionStats&quot;)</code><br>explain(“executionStats”)这个是看这次查询是用了什么方式查了多少次的具体信息</p>
+<p>如：先创建索引 <code>db.c1.createIndex({age:1})</code><br>   再使用 <code>db.c1.find({age:18}).explain(&quot;executionStats&quot;)</code></p>
 ]]></content>
       <categories>
         <category>mongoDB</category>
@@ -284,6 +313,13 @@
       </tags>
   </entry>
   <entry>
+    <title>node用cors跨域</title>
+    <url>/2020/05/24/node/</url>
+    <content><![CDATA[<p><code>cnpm i express@next mongoose cors</code></p>
+<p><code>app.use(require(&quot;cors&quot;)())</code>//使用跨域</p>
+]]></content>
+  </entry>
+  <entry>
     <title>node处理上传文件</title>
     <url>/2020/05/24/node%E5%A4%84%E7%90%86%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6/</url>
     <content><![CDATA[<p> //上传图片<br>  <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">const</span> multer = <span class="built_in">require</span>(<span class="string">"multer"</span>) <span class="comment">//引入</span></span><br><span class="line"><span class="keyword">const</span> upload = multer(&#123;</span><br><span class="line">  dest: __dirname + <span class="string">'/../../upload'</span>  <span class="comment">//要存储的路径地址</span></span><br><span class="line">&#125;)</span><br><span class="line">app.post(<span class="string">'/admin/api/upload'</span>,upload.single(<span class="string">"file"</span>),<span class="keyword">async</span> (req,res)=&gt;&#123;</span><br><span class="line">  <span class="keyword">const</span> file = req.file</span><br><span class="line">  res.send(file)  <span class="comment">//返回结果</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure><br>需要静态文件托管，表示upload下面的文件是静态的<br>  <code>app.use(&#39;/upload&#39;,express.static(__dirname+&#39;/upload&#39;))</code></p>
@@ -296,11 +332,21 @@
       </tags>
   </entry>
   <entry>
-    <title>node用cors跨域</title>
-    <url>/2020/05/24/node/</url>
-    <content><![CDATA[<p><code>cnpm i express@next mongoose cors</code></p>
-<p><code>app.use(require(&quot;cors&quot;)())</code>//使用跨域</p>
+    <title>node散列密码</title>
+    <url>/2020/05/24/node%E6%95%A3%E5%88%97%E5%AF%86%E7%A0%81/</url>
+    <content><![CDATA[<p><code>npm i bcrypt</code>下载插件</p>
+<p>模型里</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const schema &#x3D; new mongoose.Schema(&#123;</span><br><span class="line">    name:&#123;type:String&#125;,</span><br><span class="line">    pwd:&#123;</span><br><span class="line">        type:String,</span><br><span class="line">        select:false,&#x2F;&#x2F;不会被查出来</span><br><span class="line">        &#x2F;&#x2F;怎么保存这个数据</span><br><span class="line">        set(val)&#123;</span><br><span class="line">                       			异步    值   加密程度10-12</span><br><span class="line">            return require(&quot;bcrypt&quot;).hashSync(val,10)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<p>  <code>const user =await adminUser.findOne({name}).select(&quot;+password&quot;)</code>查询时强制获取password</p>
+<p> 校验密码<br>    <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const isValid &#x3D; require(&quot;bcrypt&quot;).compareSync(pwd, user.pwd)</span><br><span class="line">if (!isValid) &#123;</span><br><span class="line">  return res.status(422).send(&#123;</span><br><span class="line">    message: &quot;密码错误&quot;</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
 ]]></content>
+      <categories>
+        <category>mongoDB</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
+        <tag>mongoDB</tag>
+      </tags>
   </entry>
   <entry>
     <title>node常用</title>
@@ -308,68 +354,6 @@
     <content><![CDATA[<p>运行<code>node ----- node index.js</code></p>
 <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">setImmediate 下一帧</span><br><span class="line">console.log(__filename)&#x2F;&#x2F;当前文件位置</span><br><span class="line">console.log(__dirname)&#x2F;&#x2F;当前文件所在目录</span><br><span class="line">console.log(process)&#x2F;&#x2F;全局变量</span><br><span class="line">console.log(process.argv)&#x2F;&#x2F;能获取执行时后面带的参数 如：node index.js xxxxx</span><br><span class="line">process.stdin.on(&quot;data&quot;,e&#x3D;&gt;&#123; &#x2F;&#x2F;持续运行</span><br><span class="line">    console.log(1)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
 <p>npm init 创建npm环境</p>
-]]></content>
-      <categories>
-        <category>node</category>
-      </categories>
-      <tags>
-        <tag>node</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>mongo基本用法</title>
-    <url>/2020/05/24/mongo%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95/</url>
-    <content><![CDATA[<p>数据库(database)  集合(collection)  数据/文档(document)</p>
-<p>查看数据库<br>语法：<code>show databases</code></p>
-<p>选择数据库<br>语法: <code>use 数据库名</code></p>
-<p>删除数据库<br>1.<code>use 数据库名</code>  先选择目标数据库<br>2.<code>db.dropDatabase()</code>  删除数据库</p>
-<p>查看集合<br>语法 <code>show collections</code></p>
-<p>创建集合<code>db.createCollection(&quot;集合名&quot;)</code></p>
-<p>删除集合<code>db.集合名.drop()</code></p>
-<p><strong>*****</strong>增<br>语法: db.集合名.insert(JSON数据)<br>如：<code>db.c1.insert({name:&quot;xiaoming&quot;})</code><br>查看集合具体内容<code>db.c1.find()</code></p>
-<p>一次插入多条数据</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">db.c1.insert([</span><br><span class="line">    &#123;</span><br><span class="line">        name:&quot;aaa&quot;,</span><br><span class="line">        age:5</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">        name:&quot;bbb&quot;,</span><br><span class="line">        age:6</span><br><span class="line">    &#125;</span><br><span class="line">])</span><br></pre></td></tr></table></figure>
-<p>一次插入10条(mongoDB底层是js支持部分js语法)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">for(var i &#x3D; 0; i &lt; 10;i++)&#123;</span><br><span class="line">    db.c1.insert(&#123;name:&quot;a&quot;+1,age:i&#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-
-<p><strong>*****</strong>查<br>语法：<code>db.集合名.find({条件},{查询的列})</code>   []里的内容为可选内容<br>条件 如果不写或者{}代表查询所有数据<br>     查询age=6的   {age:6}  db.c1.find({age:6})<br>查询的列（可选）<br>     不写则查全部字段<br>     {age:1} 只显示age列<br>     {age:0} 除了age列<br>     db.c1.find({age:18},{age:1})  //查询age为18，只显示age的列<br>运算符时<br> <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#96;&#96;&#96;db.c1.find(&#123;age:&#123;$in:[5,18]&#125;&#125;) &#96;&#96;&#96; 获取年龄为5和18岁的数据</span><br><span class="line"> 运算符有</span><br><span class="line"> $gt  大于</span><br><span class="line"> $gte 大于等于</span><br><span class="line"> $lt  小于</span><br><span class="line"> $lte 小于等于</span><br><span class="line"> $ne  不等于</span><br><span class="line"> $in  in</span><br><span class="line"> $nin not in</span><br><span class="line"> </span><br><span class="line"> &#96;&#96;&#96;db.c1.find(&#123;键:&#123;运算符:值&#125;&#125;).pretty()&#96;&#96;&#96;pretty()格式化数据用的，看着方便</span><br><span class="line"></span><br><span class="line"> *********改</span><br><span class="line"> 语法: db.集合名.update(条件,新数据,是否新增,是否修改多条)</span><br><span class="line"> 是否新增(可选)：指条件匹配不到则插入数据true是插入这条数据，false是不插入  默认是不插入</span><br><span class="line"> 是否修改多条(可选)：将匹配到的数据都修改true是，默认false</span><br><span class="line"> 升级语法</span><br><span class="line"> 修改器  </span><br><span class="line"> $inc    递增</span><br><span class="line"> $rename 重命名列</span><br><span class="line"> $set    修改列值</span><br><span class="line"> $unset  删除列</span><br><span class="line"> db.集合名.update(条件,&#123;修改器:&#123;键:值&#125;&#125;)</span><br><span class="line"> 如 &#96;&#96;&#96;db.c1.update(&#123;name:&quot;bbb&quot;&#125;,&#123;$set:&#123;name:&quot;ddd&quot;&#125;&#125;)</span><br></pre></td></tr></table></figure><br> 加2岁<code>db.c1.update({name:&quot;ddd&quot;},{$inc:{age:2}})</code><br> 减<code>db.c1.update({name:&quot;ddd&quot;},{$inc:{age:-2}})</code><br>综合使用<code>db.c1.update({name:&quot;aaa&quot;},{$set:{name:&quot;abc&quot;},$inc:{age:100},$rename:{who:&quot;sex&quot;},$unset:{other:true}})</code></p>
-<p> <strong>*****</strong>删<br> 语法：<code>db.集合名.remove(条件,是否删除一条)</code><br> 是否删除一条true是是，默认false不</p>
-<p>排序<br>语法:<code>db.集合名.find().sort(JSON)</code><br>如：<code>db.ci.find().sort({age:-1})</code><br>JSON 键是以这个排列 值是 1升序  -1降序</p>
-<p>分页<br>Limit和skip<br>语法<code>：db.集合名.find().sort().skip(数字).limit(数字)</code><br>如：<code>db.ci.find().sort({age:-1}).skip(3).limit(3)</code><br>.count  统计总数量<br>skip 跳过值得数量<br>limit 限制的数量</p>
-<p>聚合查询<br>语法：<code>db.集合名.aggregate([
-    {管道:{表达式}}
-])</code><br>如：<code>db.c2.aggregate([
-    {
-        $group:{
-            _id:&quot;$sex&quot;,//以这个分组，null为不用分组
-            rs:{$sum:&quot;$age&quot;} //具体内容
-            }
-        }
-    ])</code></p>
-<pre><code><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">db.c2.aggregate(</span><br><span class="line">    [</span><br><span class="line">        &#123;</span><br><span class="line">            $group:&#123;</span><br><span class="line">                _id:&quot;$sex&quot;,</span><br><span class="line">                rs:&#123;$sum:&quot;$age&quot;&#125;</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        ]</span><br><span class="line">    )</span><br><span class="line">db.c2.aggregate(</span><br><span class="line">    [</span><br><span class="line">        &#123;</span><br><span class="line">            $group:&#123;</span><br><span class="line">                _id:&quot;$sex&quot;,rs:&#123;$sum:1&#125;</span><br><span class="line">                &#125;</span><br><span class="line">           &#125;</span><br><span class="line">            ,</span><br><span class="line">            &#123;</span><br><span class="line">                $sort:&#123;rs:-1&#125;</span><br><span class="line">            &#125;</span><br><span class="line">        ]</span><br><span class="line">    )</span><br></pre></td></tr></table></figure></code></pre><p>！！！这里值是表的键名要加$<br>常用管道<br>$group  将集合中的文档分组，用于统计结果<br>$match  过滤数据，只要输出符合条件的文档<br>$sort   聚合数据进一步排序<br>$skip   跳过直到文档数<br>$limit  限制集合数据返回文档数</p>
-<p>常用表达式<br>$sum  综合   $sum:1同count表示总数<br>$avg  平均<br>$max  最大值<br>$min  最小值</p>
-<p>索引</p>
-<p>创建索引语法:<code>db.集合名.createIndex(待创建索引的列,(可选 额外选项))</code><br>如 <code>db.c1.createIndex({name:1})</code><br>待创建索引的列 {键:1,…,键:-1}<br>1代表升序-1代表降序 {age:1}表示创建age索引并按照升序的方式存储<br>额外选项 ：设置索引的名称或者唯一索引等等</p>
-<p>删除索引语法：<br>全部删除：<code>db.集合名.dropIndexes()</code><br>如 db.c1.dropIndex(“name_1”)<br>删除指定：<code>db.集合名.dropIndex(索引名)</code></p>
-<p>查看索引语法：<code>db.集合名.getIndexes()</code></p>
-<p>创建复合/组合索引:<code>db.集合名.creatIndex({键1:方式,键2:方式})</code></p>
-<p>创建唯一索引   //就是唯一不重复<br><code>db.集合名.createIndex(待添加的索引列,{unique:列名})</code> 列名可选</p>
-<p>分析索引<code>db.集合名.find(条件).explain(&quot;executionStats&quot;)</code><br>explain(“executionStats”)这个是看这次查询是用了什么方式查了多少次的具体信息</p>
-<p>如：先创建索引 <code>db.c1.createIndex({age:1})</code><br>   再使用 <code>db.c1.find({age:18}).explain(&quot;executionStats&quot;)</code></p>
-]]></content>
-      <categories>
-        <category>mongoDB</category>
-      </categories>
-      <tags>
-        <tag>mongoDB</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>node热重启</title>
-    <url>/2020/05/24/node%E7%83%AD%E9%87%8D%E5%90%AF/</url>
-    <content><![CDATA[<p><code>npm i -g nodemon</code></p>
-<p>之后每次启动语法是 nodemon index.js</p>
 ]]></content>
       <categories>
         <category>node</category>
@@ -405,9 +389,10 @@
       </tags>
   </entry>
   <entry>
-    <title>node转换大小写插件</title>
-    <url>/2020/05/24/node%E8%BD%AC%E6%8D%A2%E5%A4%A7%E5%B0%8F%E5%86%99%E6%8F%92%E4%BB%B6/</url>
-    <content><![CDATA[<p> <code>cnpm i inflection</code>转换类名的东西比如：大小写，单复数<br><code>const modelName = require(&quot;inflection&quot;).classify(req.params.resource)</code><br><code>const Category = require(`../../models/${modelName}`)</code><br> 这个操作是把小写复数的改成大写单数的</p>
+    <title>node热重启</title>
+    <url>/2020/05/24/node%E7%83%AD%E9%87%8D%E5%90%AF/</url>
+    <content><![CDATA[<p><code>npm i -g nodemon</code></p>
+<p>之后每次启动语法是 nodemon index.js</p>
 ]]></content>
       <categories>
         <category>node</category>
@@ -427,6 +412,18 @@
       <tags>
         <tag>node</tag>
         <tag>npm</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>node转换大小写插件</title>
+    <url>/2020/05/24/node%E8%BD%AC%E6%8D%A2%E5%A4%A7%E5%B0%8F%E5%86%99%E6%8F%92%E4%BB%B6/</url>
+    <content><![CDATA[<p> <code>cnpm i inflection</code>转换类名的东西比如：大小写，单复数<br><code>const modelName = require(&quot;inflection&quot;).classify(req.params.resource)</code><br><code>const Category = require(`../../models/${modelName}`)</code><br> 这个操作是把小写复数的改成大写单数的</p>
+]]></content>
+      <categories>
+        <category>node</category>
+      </categories>
+      <tags>
+        <tag>node</tag>
       </tags>
   </entry>
   <entry>
@@ -482,9 +479,9 @@
       </tags>
   </entry>
   <entry>
-    <title>uni app获取dom节点</title>
-    <url>/2020/05/24/uni-app%E8%8E%B7%E5%8F%96dom%E8%8A%82%E7%82%B9/</url>
-    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">onReady() &#123;</span><br><span class="line">	<span class="keyword">let</span> view = uni.createSelectorQuery().select(<span class="string">".home_data"</span>);</span><br><span class="line">	view.boundingClientRect(<span class="function"><span class="params">data</span> =&gt;</span> &#123;</span><br><span class="line">		<span class="built_in">console</span>.log(data)</span><br><span class="line">	&#125;).exec();</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
+    <title>uni app 获取视口高</title>
+    <url>/2020/05/24/uni-app-%E8%8E%B7%E5%8F%96%E8%A7%86%E5%8F%A3%E9%AB%98/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">uni.getSystemInfo(&#123;</span><br><span class="line">	success: (res) &#x3D;&gt; &#123;</span><br><span class="line">		this.swiperHeight &#x3D; res.windowHeight - uni.upx2px(80) - this.getSwiperHeight()</span><br><span class="line">	&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>uni app</category>
       </categories>
@@ -505,9 +502,9 @@
       </tags>
   </entry>
   <entry>
-    <title>uni app 获取视口高</title>
-    <url>/2020/05/24/uni-app-%E8%8E%B7%E5%8F%96%E8%A7%86%E5%8F%A3%E9%AB%98/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">uni.getSystemInfo(&#123;</span><br><span class="line">	success: (res) &#x3D;&gt; &#123;</span><br><span class="line">		this.swiperHeight &#x3D; res.windowHeight - uni.upx2px(80) - this.getSwiperHeight()</span><br><span class="line">	&#125;</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>]]></content>
+    <title>uni-app接口封装</title>
+    <url>/2020/06/06/uni-app%E6%8E%A5%E5%8F%A3%E5%B0%81%E8%A3%85/</url>
+    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> store <span class="keyword">from</span> <span class="string">"../../store/index.js"</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> &#123;</span><br><span class="line">	common: &#123;</span><br><span class="line">		baseUrl: <span class="string">'http://192.168.1.11:3000/api'</span>,</span><br><span class="line">		data: &#123;&#125;,</span><br><span class="line">		header: &#123;</span><br><span class="line">			<span class="string">"Content-Type"</span>: <span class="string">"application/json"</span>,</span><br><span class="line">			<span class="string">"Content-Type"</span>: <span class="string">"application/x-www-form-urlencoded"</span>,</span><br><span class="line">		&#125;,</span><br><span class="line">		method: <span class="string">"GET"</span></span><br><span class="line">	&#125;,</span><br><span class="line">	request(options = &#123;&#125;) &#123;</span><br><span class="line">		<span class="comment">// uni.showLoading(&#123;</span></span><br><span class="line">		<span class="comment">//     title: '加载中'</span></span><br><span class="line">		<span class="comment">// &#125;);</span></span><br><span class="line">		</span><br><span class="line">		options.url = <span class="keyword">this</span>.common.baseUrl + options.url;</span><br><span class="line">		options.data = options.data || <span class="keyword">this</span>.common.data;</span><br><span class="line">		options.header = options.header || <span class="keyword">this</span>.common.header;</span><br><span class="line">		options.method = options.method || <span class="keyword">this</span>.common.method;</span><br><span class="line">		<span class="comment">// 判断是否有token</span></span><br><span class="line">		<span class="keyword">if</span>(options.header.token)&#123;</span><br><span class="line">			options.header.token = store.state.user.token</span><br><span class="line">			<span class="keyword">if</span>(!options.header.token)&#123;</span><br><span class="line">				uni.showToast(&#123;</span><br><span class="line">					title:<span class="string">"请先登录"</span>,</span><br><span class="line">					icon:<span class="string">"none"</span></span><br><span class="line">				&#125;)</span><br><span class="line">				uni.navigateTo(&#123;</span><br><span class="line">					url:<span class="string">"/pages/login/login"</span></span><br><span class="line">				&#125;)</span><br><span class="line">				<span class="keyword">return</span></span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		</span><br><span class="line">		<span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">res, rej</span>) =&gt;</span> &#123;</span><br><span class="line">			uni.request(&#123;</span><br><span class="line">				...options,</span><br><span class="line">				success: <span class="function">(<span class="params">result</span>) =&gt;</span> &#123;</span><br><span class="line">					<span class="keyword">if</span> (result.statusCode != <span class="number">200</span>) &#123;</span><br><span class="line">						<span class="keyword">return</span> rej()</span><br><span class="line">					&#125;</span><br><span class="line">					<span class="comment">// setTimeout(function () &#123;</span></span><br><span class="line">					<span class="comment">//     uni.hideLoading();</span></span><br><span class="line">					<span class="comment">// &#125;, 1000);</span></span><br><span class="line">					<span class="keyword">let</span> data = result.data.data</span><br><span class="line">					res(data)</span><br><span class="line">				&#125;</span><br><span class="line">			&#125;)</span><br><span class="line">		&#125;)</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>uni app</category>
       </categories>
@@ -516,14 +513,36 @@
       </tags>
   </entry>
   <entry>
-    <title>el-table</title>
-    <url>/2020/05/24/el-table/</url>
-    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-table</span> <span class="attr">:data</span>=<span class="string">"items"</span>&gt;</span> //要遍历的数组</span><br><span class="line">  <span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">prop</span>=<span class="string">"_id"</span> <span class="attr">label</span>=<span class="string">"ID"</span> <span class="attr">width</span>=<span class="string">"230"</span>&gt;</span><span class="tag">&lt;/<span class="name">el-table-column</span>&gt;</span> //prop是值</span><br><span class="line">  <span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">prop</span>=<span class="string">"title"</span> <span class="attr">label</span>=<span class="string">"标题"</span>&gt;</span><span class="tag">&lt;/<span class="name">el-table-column</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">fixed</span>=<span class="string">"right"</span> <span class="attr">label</span>=<span class="string">"操作"</span> <span class="attr">width</span>=<span class="string">"180"</span>&gt;</span></span><br><span class="line">    //slot-scope="scope" 当前目标的内容存到scope里</span><br><span class="line">    <span class="tag">&lt;<span class="name">template</span> <span class="attr">slot-scope</span>=<span class="string">"scope"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-button</span></span></span><br><span class="line"><span class="tag">        <span class="attr">type</span>=<span class="string">"text"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">size</span>=<span class="string">"small"</span></span></span><br><span class="line"><span class="tag">        @<span class="attr">click</span>=<span class="string">"$router.push(`/articles/edit/$&#123;scope.row._id&#125;`)"</span></span></span><br><span class="line"><span class="tag">      &gt;</span>编辑<span class="tag">&lt;/<span class="name">el-button</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-button</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">size</span>=<span class="string">"small"</span> @<span class="attr">click</span>=<span class="string">"remove(scope.row)"</span>&gt;</span>删除<span class="tag">&lt;/<span class="name">el-button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">el-table-column</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">el-table</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    <title>uni app获取dom节点</title>
+    <url>/2020/05/24/uni-app%E8%8E%B7%E5%8F%96dom%E8%8A%82%E7%82%B9/</url>
+    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">onReady() &#123;</span><br><span class="line">	<span class="keyword">let</span> view = uni.createSelectorQuery().select(<span class="string">".home_data"</span>);</span><br><span class="line">	view.boundingClientRect(<span class="function"><span class="params">data</span> =&gt;</span> &#123;</span><br><span class="line">		<span class="built_in">console</span>.log(data)</span><br><span class="line">	&#125;).exec();</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>element</category>
+        <category>uni app</category>
       </categories>
       <tags>
-        <tag>element</tag>
+        <tag>uni app</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue中使用百度地图</title>
+    <url>/2020/05/24/vue%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;https:&#x2F;&#x2F;api.map.baidu.com&#x2F;api?v&#x3D;2.0&amp;ak&#x3D;nwNW4rgxKCm6cGYkSIPsezRjZ0vOsZyB&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<p>!!!可以引完js后在</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">  methods: &#123;</span><br><span class="line">    createMap() &#123;</span><br><span class="line">		<span class="comment">//生成器的代码  </span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;,</span><br><span class="line">  mounted() &#123;</span><br><span class="line">    <span class="keyword">this</span>.createMap();</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<p>也要创建vue.config.js</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    configureWebpack: &#123;</span><br><span class="line">      externals: &#123;</span><br><span class="line">        <span class="string">"BMap"</span>: <span class="string">"BMap"</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<p>  正常方式<br>1.html引入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;https:&#x2F;&#x2F;api.map.baidu.com&#x2F;api?v&#x3D;2.0&amp;ak&#x3D;nwNW4rgxKCm6cGYkSIPsezRjZ0vOsZyB&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
+<p>2.创建vue.config.js</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    configureWebpack: &#123;</span><br><span class="line">      externals: &#123;</span><br><span class="line">        <span class="string">"BMap"</span>: <span class="string">"BMap"</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+<p>3.</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"map"</span> <span class="attr">style</span>=<span class="string">"height:300px"</span> <span class="attr">class</span>=<span class="string">"map"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">methods: &#123;</span><br><span class="line">  createMap() &#123;</span><br><span class="line">    <span class="comment">/* eslint-disable */</span></span><br><span class="line">    <span class="comment">// 创建Map实例</span></span><br><span class="line">    <span class="keyword">var</span> map = <span class="keyword">new</span> BMap.Map(<span class="string">"map"</span>);</span><br><span class="line">    <span class="keyword">var</span> point = <span class="keyword">new</span> BMap.Point(<span class="number">123.409893</span>,<span class="number">41.802065</span>);</span><br><span class="line">  <span class="comment">//   map.centerAndZoom(point, 15);</span></span><br><span class="line">    <span class="keyword">var</span> marker = <span class="keyword">new</span> BMap.Marker(point); <span class="comment">// 创建标注</span></span><br><span class="line">    map.addOverlay(marker);</span><br><span class="line">    <span class="comment">// 初始化地图,设置中心点坐标和地图级别</span></span><br><span class="line">    map.centerAndZoom(<span class="keyword">new</span> BMap.Point(<span class="number">123.410459</span>, <span class="number">41.802078</span>), <span class="number">18</span>);</span><br><span class="line">    <span class="comment">//添加地图类型控件</span></span><br><span class="line">    map.addControl(</span><br><span class="line">      <span class="keyword">new</span> BMap.MapTypeControl(&#123;</span><br><span class="line">        mapTypes: [BMAP_NORMAL_MAP, BMAP_HYBRID_MAP]</span><br><span class="line">      &#125;)</span><br><span class="line">    );</span><br><span class="line">    <span class="comment">// 设置地图显示的城市 此项是必须设置的</span></span><br><span class="line">    map.setCurrentCity(<span class="string">"沈阳"</span>);</span><br><span class="line">    <span class="comment">//开启鼠标滚轮缩放</span></span><br><span class="line">    map.enableScrollWheelZoom(<span class="literal">true</span>);</span><br><span class="line">    <span class="comment">/* eslint-enable */</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;,</span><br><span class="line">mounted() &#123;</span><br><span class="line">  <span class="keyword">this</span>.createMap();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
@@ -572,28 +591,6 @@
       </tags>
   </entry>
   <entry>
-    <title>vue中使用百度地图</title>
-    <url>/2020/05/24/vue%E4%B8%AD%E4%BD%BF%E7%94%A8%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;https:&#x2F;&#x2F;api.map.baidu.com&#x2F;api?v&#x3D;2.0&amp;ak&#x3D;nwNW4rgxKCm6cGYkSIPsezRjZ0vOsZyB&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<p>!!!可以引完js后在</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">  methods: &#123;</span><br><span class="line">    createMap() &#123;</span><br><span class="line">		<span class="comment">//生成器的代码  </span></span><br><span class="line">	&#125;</span><br><span class="line">&#125;,</span><br><span class="line">  mounted() &#123;</span><br><span class="line">    <span class="keyword">this</span>.createMap();</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-<p>也要创建vue.config.js</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    configureWebpack: &#123;</span><br><span class="line">      externals: &#123;</span><br><span class="line">        <span class="string">"BMap"</span>: <span class="string">"BMap"</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-<p>  正常方式<br>1.html引入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;script type&#x3D;&quot;text&#x2F;javascript&quot; src&#x3D;&quot;https:&#x2F;&#x2F;api.map.baidu.com&#x2F;api?v&#x3D;2.0&amp;ak&#x3D;nwNW4rgxKCm6cGYkSIPsezRjZ0vOsZyB&quot;&gt;&lt;&#x2F;script&gt;</span><br></pre></td></tr></table></figure>
-<p>2.创建vue.config.js</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    configureWebpack: &#123;</span><br><span class="line">      externals: &#123;</span><br><span class="line">        <span class="string">"BMap"</span>: <span class="string">"BMap"</span></span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-<p>3.</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">"map"</span> <span class="attr">style</span>=<span class="string">"height:300px"</span> <span class="attr">class</span>=<span class="string">"map"</span>&gt;</span><span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">methods: &#123;</span><br><span class="line">  createMap() &#123;</span><br><span class="line">    <span class="comment">/* eslint-disable */</span></span><br><span class="line">    <span class="comment">// 创建Map实例</span></span><br><span class="line">    <span class="keyword">var</span> map = <span class="keyword">new</span> BMap.Map(<span class="string">"map"</span>);</span><br><span class="line">    <span class="keyword">var</span> point = <span class="keyword">new</span> BMap.Point(<span class="number">123.409893</span>,<span class="number">41.802065</span>);</span><br><span class="line">  <span class="comment">//   map.centerAndZoom(point, 15);</span></span><br><span class="line">    <span class="keyword">var</span> marker = <span class="keyword">new</span> BMap.Marker(point); <span class="comment">// 创建标注</span></span><br><span class="line">    map.addOverlay(marker);</span><br><span class="line">    <span class="comment">// 初始化地图,设置中心点坐标和地图级别</span></span><br><span class="line">    map.centerAndZoom(<span class="keyword">new</span> BMap.Point(<span class="number">123.410459</span>, <span class="number">41.802078</span>), <span class="number">18</span>);</span><br><span class="line">    <span class="comment">//添加地图类型控件</span></span><br><span class="line">    map.addControl(</span><br><span class="line">      <span class="keyword">new</span> BMap.MapTypeControl(&#123;</span><br><span class="line">        mapTypes: [BMAP_NORMAL_MAP, BMAP_HYBRID_MAP]</span><br><span class="line">      &#125;)</span><br><span class="line">    );</span><br><span class="line">    <span class="comment">// 设置地图显示的城市 此项是必须设置的</span></span><br><span class="line">    map.setCurrentCity(<span class="string">"沈阳"</span>);</span><br><span class="line">    <span class="comment">//开启鼠标滚轮缩放</span></span><br><span class="line">    map.enableScrollWheelZoom(<span class="literal">true</span>);</span><br><span class="line">    <span class="comment">/* eslint-enable */</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;,</span><br><span class="line">mounted() &#123;</span><br><span class="line">  <span class="keyword">this</span>.createMap();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>vue使用swiper</title>
     <url>/2020/05/24/vue%E4%BD%BF%E7%94%A8swiper/</url>
     <content><![CDATA[<p>//安装swiper<br>第一步: 安装  npm i vue-awesome-swiper –save( 这一个是否安装根据实际情况,如果安装上一个你用没效果也要安装这个 =&gt;  npm i swiper )</p>
@@ -619,238 +616,30 @@
       </tags>
   </entry>
   <entry>
-    <title>vue合并对象</title>
-    <url>/2020/05/24/vue%E5%90%88%E5%B9%B6%E5%AF%B9%E8%B1%A1/</url>
-    <content><![CDATA[<p>  合并对象<br>   <code>this.model = Object.assign({},this.model,res.data);</code><br>   3个值是 要改变的对象  合并对象1   合并对象2</p>
-]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>node散列密码</title>
-    <url>/2020/05/24/node%E6%95%A3%E5%88%97%E5%AF%86%E7%A0%81/</url>
-    <content><![CDATA[<p><code>npm i bcrypt</code>下载插件</p>
-<p>模型里</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const schema &#x3D; new mongoose.Schema(&#123;</span><br><span class="line">    name:&#123;type:String&#125;,</span><br><span class="line">    pwd:&#123;</span><br><span class="line">        type:String,</span><br><span class="line">        select:false,&#x2F;&#x2F;不会被查出来</span><br><span class="line">        &#x2F;&#x2F;怎么保存这个数据</span><br><span class="line">        set(val)&#123;</span><br><span class="line">                       			异步    值   加密程度10-12</span><br><span class="line">            return require(&quot;bcrypt&quot;).hashSync(val,10)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<p>  <code>const user =await adminUser.findOne({name}).select(&quot;+password&quot;)</code>查询时强制获取password</p>
-<p> 校验密码<br>    <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">const isValid &#x3D; require(&quot;bcrypt&quot;).compareSync(pwd, user.pwd)</span><br><span class="line">if (!isValid) &#123;</span><br><span class="line">  return res.status(422).send(&#123;</span><br><span class="line">    message: &quot;密码错误&quot;</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+    <title>mongo备份与还原</title>
+    <url>/2020/05/24/mongo%E5%A4%87%E4%BB%BD%E4%B8%8E%E8%BF%98%E5%8E%9F/</url>
+    <content><![CDATA[<p>备份数据<br>导出数据语法：<code>mongodump -h -prot -u -p -d -o</code><br>-h host 服务器ip地址（一般不写默认本机）<br>-prot   端口（一般不写默认27017）<br>-u user 账号<br>-p pwd  密码<br>-d database 数据库（不写则导出全部）<br>-o open  备份到指定目录下<br>备份全部数据库     要在bin目录下执行</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongodump -u admin -p yhq990807 -o G:\mongodb-win32-x86_64\mongodb-win32-x86_64-2012plus-4.2.3\bak</span><br></pre></td></tr></table></figure>
+<p>备份指定数据库     要在bin目录下执行</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongodump -u admin -p yhq990807 -d admin -o G:\mongodb-win32-x86_64\mongodb-win32-x86_64-2012plus-4.2.3\bak2</span><br></pre></td></tr></table></figure>
+<p>user是要备份的数据库的用户</p>
+<p>还原/导入数据<br>备份数据目录<code>mongorestore -h -prot -u -p -d --drop</code><br>-d  不写则还原全部数据<br>–drop 先删除数据库再导入，不写则直接覆盖<br>还原全部数据</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongorestore -u admin -p yhq990807 --drop G:\mongodb-win32-x86_64\mongodb-win32-x86_64-2012plus-4.2.3\bak</span><br></pre></td></tr></table></figure>
+<p>还原指定数据库</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">mongorestore -u admin -p yhq990807 -d test4 --drop G:\mongodb-win32-x86_64\mongodb-win32-x86_64-2012plus-4.2.3\bak2\test4</span><br></pre></td></tr></table></figure>
+<p>也是要有权限的用户操作</p>
 ]]></content>
       <categories>
         <category>mongoDB</category>
       </categories>
       <tags>
-        <tag>node</tag>
         <tag>mongoDB</tag>
       </tags>
   </entry>
   <entry>
-    <title>vue开发环境跨越</title>
-    <url>/2020/05/24/vue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%B7%A8%E8%B6%8A/</url>
-    <content><![CDATA[<p>新建vue.config.js</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    devServer: &#123;</span><br><span class="line">      proxy: &#123;</span><br><span class="line">        <span class="string">'/api'</span>: &#123;</span><br><span class="line">          target: <span class="string">'http://localhost:3000'</span>,</span><br><span class="line">          changeOrigin: <span class="literal">true</span>,</span><br><span class="line">          pathRewrite:&#123;</span><br><span class="line">            <span class="string">''</span>:<span class="string">''</span></span><br><span class="line">          &#125;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-        <tag>js</tag>
-        <tag>跨域</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue媒体查询失败</title>
-    <url>/2020/05/24/vue%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2%E5%A4%B1%E8%B4%A5/</url>
-    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"user-scalable=0,width=device-width, initial-scale=1.0"</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue新窗空打卡链接</title>
-    <url>/2020/05/24/vue%E6%96%B0%E7%AA%97%E7%A9%BA%E6%89%93%E5%8D%A1%E9%93%BE%E6%8E%A5/</url>
-    <content><![CDATA[<p>新窗口打开外链接 </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">window.open(url,&#39;_blank&#39;)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue安装与创建</title>
-    <url>/2020/05/24/vue%E6%8C%89%E7%85%A7%E4%B8%8E%E5%88%9B%E5%BB%BA/</url>
-    <content><![CDATA[<p>安装vue cli3</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g @vue&#x2F;cli</span><br></pre></td></tr></table></figure>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vue create 名字    --创建文件</span><br></pre></td></tr></table></figure>
-<p>第二个之后选 1.babel  4.router  5.vuex  6.css<br>      save this 选no</p>
-]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue打包后本地查看</title>
-    <url>/2020/05/24/vue%E6%89%93%E5%8C%85%E5%90%8E%E6%9C%AC%E5%9C%B0%E6%9F%A5%E7%9C%8B/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install http-server -g</span><br></pre></td></tr></table></figure>
-<p>到目录终端http-server -c-1</p>
-]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue后台富文本</title>
-    <url>/2020/05/24/vue%E5%90%8E%E5%8F%B0%E5%AF%8C%E6%96%87%E6%9C%AC/</url>
-    <content><![CDATA[<p><code>npm install --save vue2-editor</code><br>之后引入<br><code>import { VueEditor } from &#39;vue2-editor&#39;</code></p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">components:&#123;</span><br><span class="line">    VueEditor</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
-
-  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-form-item</span> <span class="attr">label</span>=<span class="string">"详情"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">vue-editor</span> <span class="attr">v-model</span>=<span class="string">"model.body"</span>&gt;</span><span class="tag">&lt;/<span class="name">vue-editor</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-form-item</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>自己上传图片</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">vue-editor</span> <span class="attr">useCustomImageHandler</span> @<span class="attr">image-added</span>=<span class="string">"handleImageAdded"</span> <span class="attr">v-model</span>=<span class="string">"model.body"</span>&gt;</span><span class="tag">&lt;/<span class="name">vue-editor</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">methods: &#123;</span><br><span class="line">  <span class="keyword">async</span> handleImageAdded(file, Editor, cursorLocation, resetUploader) &#123;</span><br><span class="line">    <span class="keyword">const</span> formData = <span class="keyword">new</span> FormData();</span><br><span class="line">    formData.append(<span class="string">"file"</span>, file);</span><br><span class="line">            <span class="comment">//字段名,可以随便改，el好像是file</span></span><br><span class="line">    <span class="keyword">const</span> res =<span class="keyword">await</span> <span class="keyword">this</span>.$http.post(<span class="string">"/upload"</span>,formData)</span><br><span class="line">    Editor.insertEmbed(cursorLocation, <span class="string">"image"</span>, res.data.url);</span><br><span class="line">    resetUploader();</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue本地图片路径</title>
-    <url>/2020/05/24/vue%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84/</url>
-    <content><![CDATA[<p>需要重定向<br>imgsrc2: require(‘../assets/logo4.png’) 图片路径</p>
-]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue滚动到某处执行</title>
-    <url>/2020/05/24/vue%E6%BB%9A%E5%8A%A8%E5%88%B0%E6%9F%90%E5%A4%84%E6%89%A7%E8%A1%8C/</url>
-    <content><![CDATA[<p>获取元素距顶的高</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div class&#x3D;&quot;&quot; ref&#x3D;&quot;cs&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">this.$refs.cs.getBoundingClientRect().top</span><br></pre></td></tr></table></figure>
-<p>例子</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">toscoll() &#123;</span><br><span class="line">    this.gao &#x3D; this.$refs.cs.getBoundingClientRect().top;</span><br><span class="line">    console.log(this.gao);</span><br><span class="line">    if(this.gao&lt;&#x3D;600)&#123;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">mounted() &#123;</span><br><span class="line">  window.addEventListener(&#39;scroll&#39;, this.toscoll)&#x2F;&#x2F;启动</span><br><span class="line">&#125;,</span><br><span class="line">&#x2F;&#x2F;销毁</span><br><span class="line">  destroyed()&#123;</span><br><span class="line">   window.removeEventListener(&quot;scroll&quot;, this.toscroll);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue点击回顶部</title>
-    <url>/2020/05/24/vue%E7%82%B9%E5%87%BB%E5%9B%9E%E9%A1%B6%E9%83%A8/</url>
-    <content><![CDATA[<p>//同页面点击瞬间回到顶部<br> <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.body.scrollTop = <span class="built_in">document</span>.documentElement.scrollTop = <span class="number">0</span>;</span><br></pre></td></tr></table></figure><br>//点击路由回到顶部(瞬间)<br>main.js里</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">router.afterEach((to,from,next) &#x3D;&gt; &#123;</span><br><span class="line">  window.scrollTo(0,0);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-
-<p>//回到顶部(有过渡)</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">goUp() &#123;</span><br><span class="line">      let nowTop &#x3D;</span><br><span class="line">        document.body.scrollTop || document.documentElement.scrollTop; &#x2F;&#x2F; 获取当前滚动条位置</span><br><span class="line">      if (nowTop &gt; 0) &#123;</span><br><span class="line">        window.requestAnimationFrame(this.goUp);</span><br><span class="line">        window.scrollTo(0, nowTop - nowTop &#x2F; 5);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue格式化日期</title>
-    <url>/2020/05/24/vue%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%97%A5%E6%9C%9F/</url>
-    <content><![CDATA[<p> <code>npm i dayjs</code></p>
-<p>引入 <code>import dayjs from &quot;dayjs&quot;</code></p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span>&#123;&#123;item.createdAt | Data&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">filters:&#123;</span><br><span class="line">    <span class="built_in">Date</span>(val)&#123;</span><br><span class="line">      <span class="comment">//两位数的月份，两位数的日期</span></span><br><span class="line">      <span class="keyword">return</span> dayjs(val).format(<span class="string">'MM/DD'</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue父子通信</title>
-    <url>/2020/05/24/vue%E7%88%B6%E5%AD%90%E9%80%9A%E4%BF%A1/</url>
-    <content><![CDATA[<p>//路由传参 父==&gt;子<br>父</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">this</span>.$router.push(&#123;</span><br><span class="line">  path: a + <span class="string">"/bookShow/"</span> + bookId,</span><br><span class="line">  query: &#123; <span class="attr">bookId</span>: bookId &#125;</span><br><span class="line">&#125;);</span><br><span class="line">或</span><br><span class="line">在router中</span><br><span class="line">&#123;</span><br><span class="line">  path: <span class="string">'/heros/edit/:id'</span>,</span><br><span class="line">  name: <span class="string">'HeroEdit'</span>,</span><br><span class="line">  component: HeroEdit,</span><br><span class="line">  props:<span class="literal">true</span> <span class="comment">//这句</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
-<p>子</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">this</span>.bookId = <span class="keyword">this</span>.$route.query.bookId;</span><br><span class="line">或</span><br><span class="line">props:[] <span class="comment">//直接能拿到</span></span><br></pre></td></tr></table></figure>
-
-<p> //子 ==》 父传参<br>子</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div @click&#x3D;&quot;active&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">data:activeMenu...</span><br><span class="line"> methods: &#123;</span><br><span class="line">   active() &#123;</span><br><span class="line">     this.activeMenu &#x3D; !this.activeMenu;</span><br><span class="line">     this.$emit(&quot;active&quot;, this.activeMenu);</span><br><span class="line">   &#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-<p>父</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;Header @active&#x3D;&quot;active&quot; &#x2F;&gt;</span><br><span class="line"> data:activeMenu...</span><br><span class="line">  methods: &#123;</span><br><span class="line">    active(data) &#123;</span><br><span class="line">      this.activeMenu &#x3D; data;</span><br><span class="line">      console.log(this.activeMenu);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
-]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue省事模拟数据的方法</title>
-    <url>/2020/05/24/vue%E7%9C%81%E4%BA%8B%E6%A8%A1%E6%8B%9F%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
-    <content><![CDATA[<pre><code>newsdata:[
-  {
-    name:&quot;热门&quot;,
-    newsList:new Array(5).fill({}).map(()=&gt;({
-        Catname:&quot;公告&quot;,
-        title:&quot;未成年人防沉迷新规接入公告&quot;,
-        date:&quot;09/21&quot;
-    }))
-  }
-],</code></pre>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue路由懒加载</title>
-    <url>/2020/05/24/vue%E8%B7%AF%E7%94%B1%E6%87%92%E5%8A%A0%E8%BD%BD/</url>
-    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// import Home from '../views/Home.vue'</span></span><br><span class="line"><span class="keyword">const</span> Home = <span class="function"><span class="params">()</span> =&gt;</span> <span class="keyword">import</span>(<span class="string">'../views/Home.vue'</span>)</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue详情页不缓存(keep-alive)</title>
-    <url>/2020/05/24/vue%E8%AF%A6%E6%83%85%E9%A1%B5%E4%B8%8D%E7%BC%93%E5%AD%98-keep-alive/</url>
-    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">keep-alive</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">router-view</span> <span class="attr">v-if</span>=<span class="string">"$route.meta.keepAlive"</span>&gt;</span><span class="tag">&lt;/<span class="name">router-view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">keep-alive</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">router-view</span> <span class="attr">v-if</span>=<span class="string">"!$route.meta.keepAlive"</span>&gt;</span><span class="tag">&lt;/<span class="name">router-view</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue省略页数</title>
-    <url>/2020/05/24/vue%E7%9C%81%E7%95%A5%E9%A1%B5%E6%95%B0/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">v-if&#x3D;&quot;pageActive-2&lt;&#x3D;index&amp;&amp;index&lt;&#x3D;(pageActive+2&lt;5?5:pageActive+2)&quot;</span><br></pre></td></tr></table></figure>
-<p>5页例子<br> <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">v-if</span>=<span class="string">"pageActive&gt;2"</span> <span class="attr">class</span>=<span class="string">"sl"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">span</span></span></span><br><span class="line"><span class="tag">      @<span class="attr">click</span>=<span class="string">"toPage(index)"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">:class</span>=<span class="string">"&#123;active:index===pageActive&#125;"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">v-for</span>=<span class="string">"(item,index) in ye"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">:key</span>=<span class="string">"index"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">v-if</span>=<span class="string">"pageActive-2&lt;=index&amp;&amp;index&lt;=(pageActive+2&lt;5?5:pageActive+2)"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">class</span>=<span class="string">"ye"</span></span></span><br><span class="line"><span class="tag">    &gt;</span>&#123;&#123;item&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">span</span> <span class="attr">v-if</span>=<span class="string">"pageActive&lt;ye-3"</span> <span class="attr">class</span>=<span class="string">"sl"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+    <title>vue合并对象</title>
+    <url>/2020/05/24/vue%E5%90%88%E5%B9%B6%E5%AF%B9%E8%B1%A1/</url>
+    <content><![CDATA[<p>  合并对象<br>   <code>this.model = Object.assign({},this.model,res.data);</code><br>   3个值是 要改变的对象  合并对象1   合并对象2</p>
 ]]></content>
       <categories>
         <category>vue</category>
@@ -884,9 +673,215 @@
       </tags>
   </entry>
   <entry>
+    <title>vue媒体查询失败</title>
+    <url>/2020/05/24/vue%E5%AA%92%E4%BD%93%E6%9F%A5%E8%AF%A2%E5%A4%B1%E8%B4%A5/</url>
+    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"user-scalable=0,width=device-width, initial-scale=1.0"</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue开发环境跨越</title>
+    <url>/2020/05/24/vue%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E8%B7%A8%E8%B6%8A/</url>
+    <content><![CDATA[<p>新建vue.config.js</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    devServer: &#123;</span><br><span class="line">      proxy: &#123;</span><br><span class="line">        <span class="string">'/api'</span>: &#123;</span><br><span class="line">          target: <span class="string">'http://localhost:3000'</span>,</span><br><span class="line">          changeOrigin: <span class="literal">true</span>,</span><br><span class="line">          pathRewrite:&#123;</span><br><span class="line">            <span class="string">''</span>:<span class="string">''</span></span><br><span class="line">          &#125;</span><br><span class="line">        &#125;</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+        <tag>js</tag>
+        <tag>跨域</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue打包后本地查看</title>
+    <url>/2020/05/24/vue%E6%89%93%E5%8C%85%E5%90%8E%E6%9C%AC%E5%9C%B0%E6%9F%A5%E7%9C%8B/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install http-server -g</span><br></pre></td></tr></table></figure>
+<p>到目录终端http-server -c-1</p>
+]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue具名插槽</title>
+    <url>/2020/05/24/vue%E5%85%B7%E5%90%8D%E6%8F%92%E6%A7%BD/</url>
+    <content><![CDATA[<p>父</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">CardList</span> <span class="attr">title</span>=<span class="string">"新闻资讯"</span> <span class="attr">:categorise</span>=<span class="string">"newsdata"</span>&gt;</span>//传入的数据</span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> #<span class="attr">items</span>=<span class="string">"&#123;categorise&#125;"</span>&gt;</span>//从子组件获取到的处理过数据</span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"flex mt-3 font-md color-333"</span> <span class="attr">v-for</span>=<span class="string">"(item,index) in categorise.newsList"</span> <span class="attr">:key</span>=<span class="string">"index"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>[&#123;&#123;item.Catname&#125;&#125;]<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>丨<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"flex-1"</span>&gt;</span>&#123;&#123;item.title&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>&#123;&#123;item.date&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">CardList</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>子</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">swiper</span> <span class="attr">class</span>=<span class="string">"mt-2"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">swiper-slide</span> <span class="attr">v-for</span>=<span class="string">"(v,i) in categorise"</span> <span class="attr">:key</span>=<span class="string">"i"</span>&gt;</span></span><br><span class="line">  //具名插槽 name是要跟外面#items对应的</span><br><span class="line">    <span class="tag">&lt;<span class="name">slot</span> <span class="attr">name</span>=<span class="string">"items"</span> <span class="attr">:categorise</span>=<span class="string">"v"</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">swiper-slide</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">swiper</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue安装与创建</title>
+    <url>/2020/05/24/vue%E6%8C%89%E7%85%A7%E4%B8%8E%E5%88%9B%E5%BB%BA/</url>
+    <content><![CDATA[<p>安装vue cli3</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install -g @vue&#x2F;cli</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">vue create 名字    --创建文件</span><br></pre></td></tr></table></figure>
+<p>第二个之后选 1.babel  4.router  5.vuex  6.css<br>      save this 选no</p>
+]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue新窗空打卡链接</title>
+    <url>/2020/05/24/vue%E6%96%B0%E7%AA%97%E7%A9%BA%E6%89%93%E5%8D%A1%E9%93%BE%E6%8E%A5/</url>
+    <content><![CDATA[<p>新窗口打开外链接 </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">window.open(url,&#39;_blank&#39;)</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue本地图片路径</title>
+    <url>/2020/05/24/vue%E6%9C%AC%E5%9C%B0%E5%9B%BE%E7%89%87%E8%B7%AF%E5%BE%84/</url>
+    <content><![CDATA[<p>需要重定向<br>imgsrc2: require(‘../assets/logo4.png’) 图片路径</p>
+]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue格式化日期</title>
+    <url>/2020/05/24/vue%E6%A0%BC%E5%BC%8F%E5%8C%96%E6%97%A5%E6%9C%9F/</url>
+    <content><![CDATA[<p> <code>npm i dayjs</code></p>
+<p>引入 <code>import dayjs from &quot;dayjs&quot;</code></p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span>&gt;</span>&#123;&#123;item.createdAt | Data&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">filters:&#123;</span><br><span class="line">    <span class="built_in">Date</span>(val)&#123;</span><br><span class="line">      <span class="comment">//两位数的月份，两位数的日期</span></span><br><span class="line">      <span class="keyword">return</span> dayjs(val).format(<span class="string">'MM/DD'</span>)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue滚动到某处执行</title>
+    <url>/2020/05/24/vue%E6%BB%9A%E5%8A%A8%E5%88%B0%E6%9F%90%E5%A4%84%E6%89%A7%E8%A1%8C/</url>
+    <content><![CDATA[<p>获取元素距顶的高</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div class&#x3D;&quot;&quot; ref&#x3D;&quot;cs&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">this.$refs.cs.getBoundingClientRect().top</span><br></pre></td></tr></table></figure>
+<p>例子</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">toscoll() &#123;</span><br><span class="line">    this.gao &#x3D; this.$refs.cs.getBoundingClientRect().top;</span><br><span class="line">    console.log(this.gao);</span><br><span class="line">    if(this.gao&lt;&#x3D;600)&#123;</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">mounted() &#123;</span><br><span class="line">  window.addEventListener(&#39;scroll&#39;, this.toscoll)&#x2F;&#x2F;启动</span><br><span class="line">&#125;,</span><br><span class="line">&#x2F;&#x2F;销毁</span><br><span class="line">  destroyed()&#123;</span><br><span class="line">   window.removeEventListener(&quot;scroll&quot;, this.toscroll);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue后台富文本</title>
+    <url>/2020/05/24/vue%E5%90%8E%E5%8F%B0%E5%AF%8C%E6%96%87%E6%9C%AC/</url>
+    <content><![CDATA[<p><code>npm install --save vue2-editor</code><br>之后引入<br><code>import { VueEditor } from &#39;vue2-editor&#39;</code></p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">components:&#123;</span><br><span class="line">    VueEditor</span><br><span class="line">  &#125;,</span><br></pre></td></tr></table></figure>
+
+  <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-form-item</span> <span class="attr">label</span>=<span class="string">"详情"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">vue-editor</span> <span class="attr">v-model</span>=<span class="string">"model.body"</span>&gt;</span><span class="tag">&lt;/<span class="name">vue-editor</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">el-form-item</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>自己上传图片</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">vue-editor</span> <span class="attr">useCustomImageHandler</span> @<span class="attr">image-added</span>=<span class="string">"handleImageAdded"</span> <span class="attr">v-model</span>=<span class="string">"model.body"</span>&gt;</span><span class="tag">&lt;/<span class="name">vue-editor</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">methods: &#123;</span><br><span class="line">  <span class="keyword">async</span> handleImageAdded(file, Editor, cursorLocation, resetUploader) &#123;</span><br><span class="line">    <span class="keyword">const</span> formData = <span class="keyword">new</span> FormData();</span><br><span class="line">    formData.append(<span class="string">"file"</span>, file);</span><br><span class="line">            <span class="comment">//字段名,可以随便改，el好像是file</span></span><br><span class="line">    <span class="keyword">const</span> res =<span class="keyword">await</span> <span class="keyword">this</span>.$http.post(<span class="string">"/upload"</span>,formData)</span><br><span class="line">    Editor.insertEmbed(cursorLocation, <span class="string">"image"</span>, res.data.url);</span><br><span class="line">    resetUploader();</span><br><span class="line">  &#125;,</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue点击回顶部</title>
+    <url>/2020/05/24/vue%E7%82%B9%E5%87%BB%E5%9B%9E%E9%A1%B6%E9%83%A8/</url>
+    <content><![CDATA[<p>//同页面点击瞬间回到顶部<br> <figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.body.scrollTop = <span class="built_in">document</span>.documentElement.scrollTop = <span class="number">0</span>;</span><br></pre></td></tr></table></figure><br>//点击路由回到顶部(瞬间)<br>main.js里</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">router.afterEach((to,from,next) &#x3D;&gt; &#123;</span><br><span class="line">  window.scrollTo(0,0);</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+
+<p>//回到顶部(有过渡)</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">goUp() &#123;</span><br><span class="line">      let nowTop &#x3D;</span><br><span class="line">        document.body.scrollTop || document.documentElement.scrollTop; &#x2F;&#x2F; 获取当前滚动条位置</span><br><span class="line">      if (nowTop &gt; 0) &#123;</span><br><span class="line">        window.requestAnimationFrame(this.goUp);</span><br><span class="line">        window.scrollTo(0, nowTop - nowTop &#x2F; 5);</span><br><span class="line">      &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue省略页数</title>
+    <url>/2020/05/24/vue%E7%9C%81%E7%95%A5%E9%A1%B5%E6%95%B0/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">v-if&#x3D;&quot;pageActive-2&lt;&#x3D;index&amp;&amp;index&lt;&#x3D;(pageActive+2&lt;5?5:pageActive+2)&quot;</span><br></pre></td></tr></table></figure>
+<p>5页例子<br> <figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">v-if</span>=<span class="string">"pageActive&gt;2"</span> <span class="attr">class</span>=<span class="string">"sl"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">span</span></span></span><br><span class="line"><span class="tag">      @<span class="attr">click</span>=<span class="string">"toPage(index)"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">:class</span>=<span class="string">"&#123;active:index===pageActive&#125;"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">v-for</span>=<span class="string">"(item,index) in ye"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">:key</span>=<span class="string">"index"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">v-if</span>=<span class="string">"pageActive-2&lt;=index&amp;&amp;index&lt;=(pageActive+2&lt;5?5:pageActive+2)"</span></span></span><br><span class="line"><span class="tag">      <span class="attr">class</span>=<span class="string">"ye"</span></span></span><br><span class="line"><span class="tag">    &gt;</span>&#123;&#123;item&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"> <span class="tag">&lt;<span class="name">span</span> <span class="attr">v-if</span>=<span class="string">"pageActive&lt;ye-3"</span> <span class="attr">class</span>=<span class="string">"sl"</span>&gt;</span>...<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue省事模拟数据的方法</title>
+    <url>/2020/05/24/vue%E7%9C%81%E4%BA%8B%E6%A8%A1%E6%8B%9F%E6%95%B0%E6%8D%AE%E7%9A%84%E6%96%B9%E6%B3%95/</url>
+    <content><![CDATA[<pre><code>newsdata:[
+  {
+    name:&quot;热门&quot;,
+    newsList:new Array(5).fill({}).map(()=&gt;({
+        Catname:&quot;公告&quot;,
+        title:&quot;未成年人防沉迷新规接入公告&quot;,
+        date:&quot;09/21&quot;
+    }))
+  }
+],</code></pre>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue详情页不缓存(keep-alive)</title>
+    <url>/2020/05/24/vue%E8%AF%A6%E6%83%85%E9%A1%B5%E4%B8%8D%E7%BC%93%E5%AD%98-keep-alive/</url>
+    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">keep-alive</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">router-view</span> <span class="attr">v-if</span>=<span class="string">"$route.meta.keepAlive"</span>&gt;</span><span class="tag">&lt;/<span class="name">router-view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">keep-alive</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">router-view</span> <span class="attr">v-if</span>=<span class="string">"!$route.meta.keepAlive"</span>&gt;</span><span class="tag">&lt;/<span class="name">router-view</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>vue返回上一页</title>
     <url>/2020/05/24/vue%E8%BF%94%E5%9B%9E%E4%B8%8A%E4%B8%80%E9%A1%B5/</url>
     <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">this</span>.$router.go(<span class="number">-1</span>);</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue路由懒加载</title>
+    <url>/2020/05/24/vue%E8%B7%AF%E7%94%B1%E6%87%92%E5%8A%A0%E8%BD%BD/</url>
+    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">// import Home from '../views/Home.vue'</span></span><br><span class="line"><span class="keyword">const</span> Home = <span class="function"><span class="params">()</span> =&gt;</span> <span class="keyword">import</span>(<span class="string">'../views/Home.vue'</span>)</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>vue</category>
       </categories>
@@ -899,6 +894,20 @@
     <url>/2020/05/24/vue%E9%87%8Cprops%E5%86%99%E6%B3%95/</url>
     <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">props:&#123;</span><br><span class="line">	dataList:Array,</span><br><span class="line">	itemWidth:&#123;</span><br><span class="line">		type:String,</span><br><span class="line">		default:&quot;375rpx&quot;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 ]]></content>
+      <categories>
+        <category>vue</category>
+      </categories>
+      <tags>
+        <tag>vue</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>vue阻止默认表单提交与简单正则</title>
+    <url>/2020/05/24/vue%E9%98%BB%E6%AD%A2%E9%BB%98%E8%AE%A4%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E4%B8%8E%E7%AE%80%E5%8D%95%E6%AD%A3%E5%B8%B8/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;form v-on:submit.prevent&#x3D;&quot;tj&quot;&gt; 阻止提交页面刷新 并执行 tj()方法 form里写</span><br></pre></td></tr></table></figure>
+<p> @submit.native.prevent=”save”<br> 提交    原生    阻止<br>//获取dom元素</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">placeholder</span>=<span class="string">"您的电话"</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">name</span> <span class="attr">id</span> <span class="attr">ref</span>=<span class="string">"tel"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">"tj"</span> <span class="attr">value</span>=<span class="string">"提交留言"</span> <span class="attr">type</span>=<span class="string">"submit"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">tj() &#123;</span><br><span class="line">  <span class="keyword">var</span> tel = <span class="keyword">this</span>.$refs.tel.value;</span><br><span class="line">  <span class="keyword">var</span> name = <span class="keyword">this</span>.$refs.name.value;</span><br><span class="line">  <span class="keyword">var</span> text = <span class="keyword">this</span>.$refs.text.value;</span><br><span class="line">  <span class="keyword">if</span> (name == <span class="string">""</span>) &#123;</span><br><span class="line">    alert(<span class="string">"姓名不能为空"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (tel == <span class="string">""</span>) &#123;</span><br><span class="line">    alert(<span class="string">"手机号不能为空"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (text == <span class="string">""</span>) &#123;</span><br><span class="line">    alert(<span class="string">"留言内容不能为空"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (!<span class="regexp">/^1[3456789]\d&#123;9&#125;$/</span>.test(tel)) &#123;</span><br><span class="line">    alert(<span class="string">"手机号格式不正确"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">console</span>.log(name,tel,text);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>vue</category>
       </categories>
@@ -942,14 +951,23 @@
       </tags>
   </entry>
   <entry>
-    <title>图片变灰(滤镜)</title>
-    <url>/2020/05/24/%E5%9B%BE%E7%89%87%E5%8F%98%E7%81%B0-%E6%BB%A4%E9%95%9C/</url>
-    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">-webkit-filter</span>: <span class="selector-tag">grayscale</span>(100%);    </span><br><span class="line"><span class="selector-tag">-moz-filter</span>: <span class="selector-tag">grayscale</span>(100%);</span><br><span class="line"><span class="selector-tag">-ms-filter</span>: <span class="selector-tag">grayscale</span>(100%);</span><br><span class="line"><span class="selector-tag">-o-filter</span>: <span class="selector-tag">grayscale</span>(100%);</span><br><span class="line"><span class="selector-tag">filter</span>: <span class="selector-tag">grayscale</span>(100%);</span><br><span class="line"><span class="selector-tag">filter</span>: <span class="selector-tag">gray</span>;</span><br><span class="line"><span class="selector-tag">opacity</span><span class="selector-pseudo">:0.7</span>;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>vue父子通信</title>
+    <url>/2020/05/24/vue%E7%88%B6%E5%AD%90%E9%80%9A%E4%BF%A1/</url>
+    <content><![CDATA[<p>//路由传参 父==&gt;子<br>父</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">this</span>.$router.push(&#123;</span><br><span class="line">  path: a + <span class="string">"/bookShow/"</span> + bookId,</span><br><span class="line">  query: &#123; <span class="attr">bookId</span>: bookId &#125;</span><br><span class="line">&#125;);</span><br><span class="line">或</span><br><span class="line">在router中</span><br><span class="line">&#123;</span><br><span class="line">  path: <span class="string">'/heros/edit/:id'</span>,</span><br><span class="line">  name: <span class="string">'HeroEdit'</span>,</span><br><span class="line">  component: HeroEdit,</span><br><span class="line">  props:<span class="literal">true</span> <span class="comment">//这句</span></span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+<p>子</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">this</span>.bookId = <span class="keyword">this</span>.$route.query.bookId;</span><br><span class="line">或</span><br><span class="line">props:[] <span class="comment">//直接能拿到</span></span><br></pre></td></tr></table></figure>
+
+<p> //子 ==》 父传参<br>子</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;div @click&#x3D;&quot;active&quot;&gt;&lt;&#x2F;div&gt;</span><br><span class="line">data:activeMenu...</span><br><span class="line"> methods: &#123;</span><br><span class="line">   active() &#123;</span><br><span class="line">     this.activeMenu &#x3D; !this.activeMenu;</span><br><span class="line">     this.$emit(&quot;active&quot;, this.activeMenu);</span><br><span class="line">   &#125;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
+<p>父</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;Header @active&#x3D;&quot;active&quot; &#x2F;&gt;</span><br><span class="line"> data:activeMenu...</span><br><span class="line">  methods: &#123;</span><br><span class="line">    active(data) &#123;</span><br><span class="line">      this.activeMenu &#x3D; data;</span><br><span class="line">      console.log(this.activeMenu);</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
-        <category>css</category>
+        <category>vue</category>
       </categories>
       <tags>
-        <tag>css</tag>
+        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
@@ -964,27 +982,50 @@
       </tags>
   </entry>
   <entry>
-    <title>创建本地git仓库完成版本控制</title>
-    <url>/2020/05/26/%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0git%E4%BB%93%E5%BA%93/</url>
-    <content><![CDATA[<p>创建本地git仓库</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git init &#x2F;&#x2F;会生成一个隐藏文件夹git</span><br></pre></td></tr></table></figure>
-<p>本地编写完代码后，将一些文件提交到暂存区</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git add xxx  &#x2F;&#x2F;将xxx提交到暂存区</span><br><span class="line">$ git add . 或者 -A   &#x2F;&#x2F;将所有最新修改的文件都提交到暂存区</span><br></pre></td></tr></table></figure>
-<p>把暂存区内容提交到历史区</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git commit -m&#39;这里写描述信息&#39;</span><br><span class="line">$ git log  &#x2F;&#x2F;查看历史版本信息</span><br><span class="line">$ git reflog &#x2F;&#x2F;查看历史版本信息(包含回滚的信息)</span><br></pre></td></tr></table></figure>
-<p>将历史区的文件回滚到本地</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git reset --hard xxxxxxxxxxxxxxxx   &#x2F;&#x2F;xxx是要回退的版本号</span><br></pre></td></tr></table></figure>
-
-
-<p>当我们需要删除暂存区或分支上的文件, 同时工作区也不需要这个文件了, 可以使用</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git rm 文件名</span><br><span class="line">git commit -m &#39;delete somefile&#39;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
-<p>当我们需要删除暂存区或分支上的文件, 但本地又需要使用, 只是不希望这个文件被版本控制, 可以使用</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git rm --cached 文件名</span><br><span class="line">git commit -m &#39;delete remote somefile&#39;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>]]></content>
+    <title>小程序上拉刷新，下拉加载</title>
+    <url>/2020/06/07/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E4%B8%8A%E6%8B%89%E5%88%B7%E6%96%B0%EF%BC%8C%E4%B8%8B%E6%8B%89%E5%8A%A0%E8%BD%BD/</url>
+    <content><![CDATA[<h2 id="下拉加载"><a href="#下拉加载" class="headerlink" title="下拉加载"></a>下拉加载</h2><p>onReachBottom（生命周期）</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">onReachBottom()&#123;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="上拉刷新"><a href="#上拉刷新" class="headerlink" title="上拉刷新"></a>上拉刷新</h2><p>1.在要开启上拉刷新的页面的.json文件里开启</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&quot;enablePullDownRefresh&quot;: true,&#x2F;&#x2F;开启上拉功能</span><br><span class="line"> &quot;backgroundTextStyle&quot;: &quot;dark&quot;&#x2F;&#x2F;loading样式</span><br></pre></td></tr></table></figure>
+<p>2.用上拉的生命周期onPullDownRefresh</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">onPullDownRefresh()&#123;</span><br><span class="line">	</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&#x2F;&#x2F;提前关闭微信下拉的loading，在必要位置使用</span><br><span class="line">wx.stopPullDownRefresh()</span><br></pre></td></tr></table></figure>
+]]></content>
       <categories>
-        <category>git</category>
+        <category>小程序</category>
       </categories>
       <tags>
-        <tag>git</tag>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>图片变灰(滤镜)</title>
+    <url>/2020/05/24/%E5%9B%BE%E7%89%87%E5%8F%98%E7%81%B0-%E6%BB%A4%E9%95%9C/</url>
+    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">-webkit-filter</span>: <span class="selector-tag">grayscale</span>(100%);    </span><br><span class="line"><span class="selector-tag">-moz-filter</span>: <span class="selector-tag">grayscale</span>(100%);</span><br><span class="line"><span class="selector-tag">-ms-filter</span>: <span class="selector-tag">grayscale</span>(100%);</span><br><span class="line"><span class="selector-tag">-o-filter</span>: <span class="selector-tag">grayscale</span>(100%);</span><br><span class="line"><span class="selector-tag">filter</span>: <span class="selector-tag">grayscale</span>(100%);</span><br><span class="line"><span class="selector-tag">filter</span>: <span class="selector-tag">gray</span>;</span><br><span class="line"><span class="selector-tag">opacity</span><span class="selector-pseudo">:0.7</span>;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小程序子组件向父传参</title>
+    <url>/2020/06/06/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%AD%90%E7%BB%84%E4%BB%B6%E5%90%91%E7%88%B6%E4%BC%A0%E5%8F%82/</url>
+    <content><![CDATA[<h2 id="子组件"><a href="#子组件" class="headerlink" title="子组件"></a>子组件</h2><p>1.先写个点击事件changeTab传的参是index</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">wx:for</span>=<span class="string">"&#123;&#123;tabs&#125;&#125;"</span> <span class="attr">wx:key</span>=<span class="string">"id"</span> <span class="attr">class</span>=<span class="string">"title-item  &#123;&#123;item.active?'active':''&#125;&#125;"</span> <span class="attr">bindtap</span>=<span class="string">"changeTab"</span> <span class="attr">data-index</span>=<span class="string">"&#123;&#123;index&#125;&#125;"</span>&gt;</span></span><br><span class="line">&#123;&#123;item.name&#125;&#125;</span><br><span class="line"><span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p>2.自定义事件</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">methods: &#123;</span><br><span class="line">    changeTab(e)&#123;</span><br><span class="line">        <span class="comment">//获取索引</span></span><br><span class="line">      <span class="keyword">let</span> index = e.currentTarget.dataset.index</span><br><span class="line">        <span class="comment">//触发父组件中的自定义事件  事件名,｛key:value｝</span></span><br><span class="line">        <span class="keyword">this</span>.triggerEvent(<span class="string">"tabActive"</span>,&#123;<span class="attr">index</span>:index&#125;)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="父组件"><a href="#父组件" class="headerlink" title="父组件"></a>父组件</h2><p>1.监听自定义事件,bind+自定义事件名，触发后执行onTabActive方法</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">Tabs</span> <span class="attr">tabs</span>=<span class="string">"&#123;&#123;tabs&#125;&#125;"</span> <span class="attr">bindtabActive</span>=<span class="string">"onTabActive"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
+<p>2.js</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">onTabActive(e)&#123;</span><br><span class="line">  <span class="built_in">console</span>.log(e)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
       </tags>
   </entry>
   <entry>
@@ -1003,25 +1044,6 @@
       </tags>
   </entry>
   <entry>
-    <title>vue打包前改路径</title>
-    <url>/2020/05/24/vue%E6%89%93%E5%8C%85%E5%89%8D%E6%94%B9%E8%B7%AF%E5%BE%84/</url>
-    <content><![CDATA[<p>打包前<br>开发环境变量</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">  <span class="keyword">const</span> http = axios.create(&#123;</span><br><span class="line">    <span class="comment">// baseURL: "http://localhost:3000/admin/api"</span></span><br><span class="line">    baseURL: process.env.VUE_APP_API_URL || <span class="string">"/admin/api"</span></span><br><span class="line">    <span class="comment">//      process.env.VUE_APP是固定的</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
-<p>建个.env.development文件</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">VUE_APP_API_URL = http:<span class="comment">//localhost:3000/admin/api</span></span><br></pre></td></tr></table></figure>
-
-
-<p>vue.config.js里</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    outputDir : __dirname +<span class="string">"/../server/admin"</span>,<span class="comment">//编译到的目录</span></span><br><span class="line">    <span class="comment">//判断是否是生产环境是的话加/admin前缀</span></span><br><span class="line">    publicPath:process.env.NODE_ENV === <span class="string">"production"</span></span><br><span class="line">    ? <span class="string">"/admin/"</span></span><br><span class="line">    : <span class="string">'/'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-        <tag>axios</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>小程序动画</title>
     <url>/2020/05/24/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%8A%A8%E7%94%BB/</url>
     <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">view</span> <span class="attr">class</span>=<span class="string">"usermotto"</span> <span class="attr">animation</span>=<span class="string">"&#123;&#123;an&#125;&#125;"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">text</span>  <span class="attr">class</span>=<span class="string">"user-motto &#123;&#123;gaoliang?'active':''&#125;&#125;"</span>&gt;</span>&#123;&#123;motto&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">text</span>&gt;</span>&#123;&#123;name&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">view</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">button</span> <span class="attr">data-name</span>=<span class="string">"5"</span> <span class="attr">bindtap</span>=<span class="string">"al"</span>&gt;</span>1<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure>
@@ -1036,11 +1058,29 @@
       </tags>
   </entry>
   <entry>
-    <title>小程序添加高亮</title>
-    <url>/2020/05/24/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E9%AB%98%E4%BA%AE/</url>
-    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">text</span> <span class="attr">bindtap</span>=<span class="string">"al"</span> <span class="attr">class</span>=<span class="string">"user-motto &#123;&#123;gaoliang?'active':''&#125;&#125;"</span>&gt;</span>&#123;&#123;motto&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br></pre></td></tr></table></figure>
+    <title>小程序封装接口</title>
+    <url>/2020/05/31/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%B0%81%E8%A3%85%E6%8E%A5%E5%8F%A3/</url>
+    <content><![CDATA[<p>新建个js文件</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="comment">//多次请求时关闭loading</span></span><br><span class="line"><span class="keyword">let</span> ajaxNum = <span class="number">0</span></span><br><span class="line"><span class="keyword">export</span> <span class="keyword">const</span> request = <span class="function">(<span class="params">params</span>)=&gt;</span>&#123;</span><br><span class="line">    ajaxNum++</span><br><span class="line">    <span class="comment">//定义公共url</span></span><br><span class="line">    <span class="keyword">const</span> baseURL = <span class="string">"https://api-hmugo-web.itheima.net/api/public/v1"</span></span><br><span class="line">     wx.showLoading(&#123;</span><br><span class="line">      title: <span class="string">'加载中'</span>,</span><br><span class="line">    &#125;)</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">        wx.request(&#123;</span><br><span class="line">            ...params,</span><br><span class="line">            url:baseURL+params.url,</span><br><span class="line">            success:<span class="function">(<span class="params">res</span>)=&gt;</span>&#123;</span><br><span class="line">                resolve(res)</span><br><span class="line">            &#125;,</span><br><span class="line">            fail:<span class="function">(<span class="params">err</span>)=&gt;</span>&#123;</span><br><span class="line">                reject(err)</span><br><span class="line">            &#125;,</span><br><span class="line">            complete:<span class="function"><span class="params">()</span>=&gt;</span>&#123;</span><br><span class="line">                ajaxNum--</span><br><span class="line">                <span class="keyword">if</span>(ajaxNum==<span class="number">0</span>)&#123;</span><br><span class="line">                    wx.hideLoading()</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">al()&#123;</span><br><span class="line">    <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">      gaoliang:<span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
+<p>在要用到的页面的js上面</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;</span><br><span class="line">  request</span><br><span class="line">&#125; <span class="keyword">from</span> <span class="string">"../../request/index.js"</span></span><br></pre></td></tr></table></figure>
+
+<p><img src="/images/pasted-13.png" alt="upload successful"></p>
+<p>使用</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">getFloorList() &#123;</span><br><span class="line">  request(&#123;</span><br><span class="line">    url: <span class="string">'xxxxxxxxxxx'</span></span><br><span class="line">  &#125;).then(<span class="function">(<span class="params">res</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">      floorList: res.data.message</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 生命周期函数--监听页面加载</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">onLoad: <span class="function"><span class="keyword">function</span> (<span class="params">options</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">this</span>.getFloorList()</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小程序点击图片放大预览</title>
+    <url>/2020/06/07/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%82%B9%E5%87%BB%E5%9B%BE%E7%89%87%E6%94%BE%E5%A4%A7%E9%A2%84%E8%A7%88/</url>
+    <content><![CDATA[<p>1.写个点击事件<br>previewImage是原生小程序原生api</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">bingImage(e)&#123;</span><br><span class="line">  &#x2F;&#x2F;显示哪张图片</span><br><span class="line">  let img &#x3D; e.currentTarget.dataset.img</span><br><span class="line">  &#x2F;&#x2F;所有的图片列表</span><br><span class="line">  let images &#x3D; this.Goods.pics.map(v&#x3D;&gt;v.pics_mid)</span><br><span class="line">  wx.previewImage(&#123;</span><br><span class="line">    current: img,   &#x2F;&#x2F;显示哪张图片</span><br><span class="line">    urls: images    &#x2F;&#x2F;所有的图片列表</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>小程序</category>
       </categories>
@@ -1062,9 +1102,11 @@
       </tags>
   </entry>
   <entry>
-    <title>小程序自定义循环名</title>
-    <url>/2020/05/31/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BE%AA%E7%8E%AF%E5%90%8D/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view class&#x3D;&quot;floor-group&quot; wx:for&#x3D;&quot;&#123;&#123;floorList&#125;&#125;&quot; wx:key&#x3D;&quot;index1&quot; wx:for-item&#x3D;&quot;item1&quot; wx:for-index&#x3D;&quot;index1&quot;&gt;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>小程序添加高亮</title>
+    <url>/2020/05/24/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E6%B7%BB%E5%8A%A0%E9%AB%98%E4%BA%AE/</url>
+    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">text</span> <span class="attr">bindtap</span>=<span class="string">"al"</span> <span class="attr">class</span>=<span class="string">"user-motto &#123;&#123;gaoliang?'active':''&#125;&#125;"</span>&gt;</span>&#123;&#123;motto&#125;&#125;<span class="tag">&lt;/<span class="name">text</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">al()&#123;</span><br><span class="line">    <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">      gaoliang:<span class="literal">true</span></span><br><span class="line">    &#125;)</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>小程序</category>
       </categories>
@@ -1089,12 +1131,37 @@
       </tags>
   </entry>
   <entry>
-    <title>引入字体</title>
-    <url>/2020/05/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
-    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">'pingfang'</span>;</span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">url</span>(../font/PINGFANG.TTF);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">body</span>&#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">"pingfang"</span><span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>el-table</title>
+    <url>/2020/05/24/el-table/</url>
+    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">el-table</span> <span class="attr">:data</span>=<span class="string">"items"</span>&gt;</span> //要遍历的数组</span><br><span class="line">  <span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">prop</span>=<span class="string">"_id"</span> <span class="attr">label</span>=<span class="string">"ID"</span> <span class="attr">width</span>=<span class="string">"230"</span>&gt;</span><span class="tag">&lt;/<span class="name">el-table-column</span>&gt;</span> //prop是值</span><br><span class="line">  <span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">prop</span>=<span class="string">"title"</span> <span class="attr">label</span>=<span class="string">"标题"</span>&gt;</span><span class="tag">&lt;/<span class="name">el-table-column</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">el-table-column</span> <span class="attr">fixed</span>=<span class="string">"right"</span> <span class="attr">label</span>=<span class="string">"操作"</span> <span class="attr">width</span>=<span class="string">"180"</span>&gt;</span></span><br><span class="line">    //slot-scope="scope" 当前目标的内容存到scope里</span><br><span class="line">    <span class="tag">&lt;<span class="name">template</span> <span class="attr">slot-scope</span>=<span class="string">"scope"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-button</span></span></span><br><span class="line"><span class="tag">        <span class="attr">type</span>=<span class="string">"text"</span></span></span><br><span class="line"><span class="tag">        <span class="attr">size</span>=<span class="string">"small"</span></span></span><br><span class="line"><span class="tag">        @<span class="attr">click</span>=<span class="string">"$router.push(`/articles/edit/$&#123;scope.row._id&#125;`)"</span></span></span><br><span class="line"><span class="tag">      &gt;</span>编辑<span class="tag">&lt;/<span class="name">el-button</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">el-button</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">size</span>=<span class="string">"small"</span> @<span class="attr">click</span>=<span class="string">"remove(scope.row)"</span>&gt;</span>删除<span class="tag">&lt;/<span class="name">el-button</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">el-table-column</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">el-table</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>css</category>
+        <category>element</category>
       </categories>
+      <tags>
+        <tag>element</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小程序自定义循环名</title>
+    <url>/2020/05/31/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E8%87%AA%E5%AE%9A%E4%B9%89%E5%BE%AA%E7%8E%AF%E5%90%8D/</url>
+    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;view class&#x3D;&quot;floor-group&quot; wx:for&#x3D;&quot;&#123;&#123;floorList&#125;&#125;&quot; wx:key&#x3D;&quot;index1&quot; wx:for-item&#x3D;&quot;item1&quot; wx:for-index&#x3D;&quot;index1&quot;&gt;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>手机禁止放大</title>
+    <url>/2020/05/24/%E6%89%8B%E6%9C%BA%E7%A6%81%E6%AD%A2%E6%94%BE%E5%A4%A7/</url>
+    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>html</category>
+      </categories>
+      <tags>
+        <tag>html</tag>
+      </tags>
   </entry>
   <entry>
     <title>手机rem</title>
@@ -1111,31 +1178,17 @@
       </tags>
   </entry>
   <entry>
+    <title>引入字体</title>
+    <url>/2020/05/23/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/</url>
+    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="keyword">@font-face</span> &#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">'pingfang'</span>;</span><br><span class="line">  <span class="attribute">src</span>: <span class="built_in">url</span>(../font/PINGFANG.TTF);</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-tag">body</span>&#123;</span><br><span class="line">  <span class="attribute">font-family</span>: <span class="string">"pingfang"</span><span class="meta">!important</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+  </entry>
+  <entry>
     <title>手机视频不全屏</title>
     <url>/2020/05/24/%E6%89%8B%E6%9C%BA%E8%A7%86%E9%A2%91%E4%B8%8D%E5%85%A8%E5%B1%8F/</url>
     <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">src</span>=<span class="string">""</span> <span class="attr">poster</span>=<span class="string">""</span> <span class="attr">width</span>=<span class="string">"100%"</span> <span class="attr">controls</span> <span class="attr">playsinline</span>=<span class="string">"true"</span> <span class="attr">webkit-playsinline</span>=<span class="string">"true"</span>  <span class="attr">x5-playsinline</span>=<span class="string">"true"</span>&gt;</span><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>html</category>
-      </categories>
-      <tags>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机禁止放大</title>
-    <url>/2020/05/24/%E6%89%8B%E6%9C%BA%E7%A6%81%E6%AD%A2%E6%94%BE%E5%A4%A7/</url>
-    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">meta</span> <span class="attr">name</span>=<span class="string">"viewport"</span> <span class="attr">content</span>=<span class="string">"width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>html</category>
-      </categories>
-      <tags>
-        <tag>html</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>手机视频播放</title>
-    <url>/2020/05/24/%E6%89%8B%E6%9C%BA%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE/</url>
-    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">loop</span>=<span class="string">"loop"</span> <span class="attr">autoplay</span>=<span class="string">"autoplay"</span> <span class="attr">muted</span> <span class="attr">x5-playsinline</span>=<span class="string">""</span> <span class="attr">playsinline</span>=<span class="string">""</span> <span class="attr">x-webkit-airplay</span>=<span class="string">"allow"</span> <span class="attr">style</span>=<span class="string">"object-fit:fill"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>html</category>
       </categories>
@@ -1155,14 +1208,14 @@
       </tags>
   </entry>
   <entry>
-    <title>点击视频播放</title>
-    <url>/2020/05/24/%E7%82%B9%E5%87%BB%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE/</url>
-    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> video1=<span class="built_in">document</span>.getElementById(<span class="string">"cideoPlay1"</span>);</span><br><span class="line"></span><br><span class="line">video1.οnclick=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(video1.paused)&#123;</span><br><span class="line">        video1.play();</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        video1.pause();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>手机视频播放</title>
+    <url>/2020/05/24/%E6%89%8B%E6%9C%BA%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE/</url>
+    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">video</span> <span class="attr">loop</span>=<span class="string">"loop"</span> <span class="attr">autoplay</span>=<span class="string">"autoplay"</span> <span class="attr">muted</span> <span class="attr">x5-playsinline</span>=<span class="string">""</span> <span class="attr">playsinline</span>=<span class="string">""</span> <span class="attr">x-webkit-airplay</span>=<span class="string">"allow"</span> <span class="attr">style</span>=<span class="string">"object-fit:fill"</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">video</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>js</category>
+        <category>html</category>
       </categories>
       <tags>
-        <tag>js</tag>
+        <tag>html</tag>
       </tags>
   </entry>
   <entry>
@@ -1189,9 +1242,9 @@
       </tags>
   </entry>
   <entry>
-    <title>用js引入css</title>
-    <url>/2020/05/24/%E7%94%A8js%E5%BC%95%E5%85%A5css/</url>
-    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.write(<span class="string">"&lt;link rel='stylesheet' href='css/style.css'&gt;"</span>);</span><br></pre></td></tr></table></figure>]]></content>
+    <title>点击视频播放</title>
+    <url>/2020/05/24/%E7%82%B9%E5%87%BB%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE/</url>
+    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">var</span> video1=<span class="built_in">document</span>.getElementById(<span class="string">"cideoPlay1"</span>);</span><br><span class="line"></span><br><span class="line">video1.οnclick=<span class="function"><span class="keyword">function</span>(<span class="params"></span>)</span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(video1.paused)&#123;</span><br><span class="line">        video1.play();</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        video1.pause();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
         <category>js</category>
       </categories>
@@ -1200,14 +1253,14 @@
       </tags>
   </entry>
   <entry>
-    <title>监听路由改变</title>
-    <url>/2020/05/24/%E7%9B%91%E5%90%AC%E8%B7%AF%E7%94%B1%E6%94%B9%E5%8F%98/</url>
-    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">watch: &#123;</span><br><span class="line">    <span class="comment">// 如果路由有变化，会再次执行该方法</span></span><br><span class="line">    <span class="string">'$route'</span>: <span class="string">'fetchData'</span>,</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
+    <title>用js引入css</title>
+    <url>/2020/05/24/%E7%94%A8js%E5%BC%95%E5%85%A5css/</url>
+    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">document</span>.write(<span class="string">"&lt;link rel='stylesheet' href='css/style.css'&gt;"</span>);</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>vue</category>
+        <category>js</category>
       </categories>
       <tags>
-        <tag>vue</tag>
+        <tag>js</tag>
       </tags>
   </entry>
   <entry>
@@ -1220,14 +1273,14 @@
       </categories>
   </entry>
   <entry>
-    <title>背景图片视差滚动</title>
-    <url>/2020/05/24/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%E8%A7%86%E5%B7%AE%E6%BB%9A%E5%8A%A8/</url>
-    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.youshi_img</span>&#123;</span><br><span class="line">	<span class="attribute">background-attachment</span>: fixed;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>监听路由改变</title>
+    <url>/2020/05/24/%E7%9B%91%E5%90%AC%E8%B7%AF%E7%94%B1%E6%94%B9%E5%8F%98/</url>
+    <content><![CDATA[<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">watch: &#123;</span><br><span class="line">    <span class="comment">// 如果路由有变化，会再次执行该方法</span></span><br><span class="line">    <span class="string">'$route'</span>: <span class="string">'fetchData'</span>,</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>css</category>
+        <category>vue</category>
       </categories>
       <tags>
-        <tag>css</tag>
+        <tag>vue</tag>
       </tags>
   </entry>
   <entry>
@@ -1243,17 +1296,14 @@
       </tags>
   </entry>
   <entry>
-    <title>vue具名插槽</title>
-    <url>/2020/05/24/vue%E5%85%B7%E5%90%8D%E6%8F%92%E6%A7%BD/</url>
-    <content><![CDATA[<p>父</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">CardList</span> <span class="attr">title</span>=<span class="string">"新闻资讯"</span> <span class="attr">:categorise</span>=<span class="string">"newsdata"</span>&gt;</span>//传入的数据</span><br><span class="line">  <span class="tag">&lt;<span class="name">template</span> #<span class="attr">items</span>=<span class="string">"&#123;categorise&#125;"</span>&gt;</span>//从子组件获取到的处理过数据</span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"flex mt-3 font-md color-333"</span> <span class="attr">v-for</span>=<span class="string">"(item,index) in categorise.newsList"</span> <span class="attr">:key</span>=<span class="string">"index"</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>[&#123;&#123;item.Catname&#125;&#125;]<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>丨<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"flex-1"</span>&gt;</span>&#123;&#123;item.title&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span>&gt;</span>&#123;&#123;item.date&#125;&#125;<span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">template</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">CardList</span>&gt;</span></span><br></pre></td></tr></table></figure>
-<p>子</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">swiper</span> <span class="attr">class</span>=<span class="string">"mt-2"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">swiper-slide</span> <span class="attr">v-for</span>=<span class="string">"(v,i) in categorise"</span> <span class="attr">:key</span>=<span class="string">"i"</span>&gt;</span></span><br><span class="line">  //具名插槽 name是要跟外面#items对应的</span><br><span class="line">    <span class="tag">&lt;<span class="name">slot</span> <span class="attr">name</span>=<span class="string">"items"</span> <span class="attr">:categorise</span>=<span class="string">"v"</span>&gt;</span><span class="tag">&lt;/<span class="name">slot</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;/<span class="name">swiper-slide</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">swiper</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    <title>背景图片视差滚动</title>
+    <url>/2020/05/24/%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%E8%A7%86%E5%B7%AE%E6%BB%9A%E5%8A%A8/</url>
+    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-class">.youshi_img</span>&#123;</span><br><span class="line">	<span class="attribute">background-attachment</span>: fixed;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>vue</category>
+        <category>css</category>
       </categories>
       <tags>
-        <tag>vue</tag>
+        <tag>css</tag>
       </tags>
   </entry>
   <entry>
@@ -1279,14 +1329,22 @@
       </tags>
   </entry>
   <entry>
-    <title>限制文字显示几行</title>
-    <url>/2020/05/24/%E9%99%90%E5%88%B6%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E5%87%A0%E8%A1%8C/</url>
-    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">display</span>: <span class="selector-tag">-webkit-box</span>;</span><br><span class="line"><span class="selector-tag">-webkit-line-clamp</span>: 2;</span><br><span class="line"><span class="selector-tag">-webkit-box-orient</span>: <span class="selector-tag">vertical</span>;</span><br><span class="line"><span class="selector-tag">overflow</span>: <span class="selector-tag">hidden</span>;</span><br></pre></td></tr></table></figure>]]></content>
+    <title>vue打包前改路径</title>
+    <url>/2020/05/24/vue%E6%89%93%E5%8C%85%E5%89%8D%E6%94%B9%E8%B7%AF%E5%BE%84/</url>
+    <content><![CDATA[<p>打包前<br>开发环境变量</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">  <span class="keyword">const</span> http = axios.create(&#123;</span><br><span class="line">    <span class="comment">// baseURL: "http://localhost:3000/admin/api"</span></span><br><span class="line">    baseURL: process.env.VUE_APP_API_URL || <span class="string">"/admin/api"</span></span><br><span class="line">    <span class="comment">//      process.env.VUE_APP是固定的</span></span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure>
+<p>建个.env.development文件</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">VUE_APP_API_URL = http:<span class="comment">//localhost:3000/admin/api</span></span><br></pre></td></tr></table></figure>
+
+
+<p>vue.config.js里</p>
+<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="built_in">module</span>.exports = &#123;</span><br><span class="line">    outputDir : __dirname +<span class="string">"/../server/admin"</span>,<span class="comment">//编译到的目录</span></span><br><span class="line">    <span class="comment">//判断是否是生产环境是的话加/admin前缀</span></span><br><span class="line">    publicPath:process.env.NODE_ENV === <span class="string">"production"</span></span><br><span class="line">    ? <span class="string">"/admin/"</span></span><br><span class="line">    : <span class="string">'/'</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
       <categories>
-        <category>css</category>
+        <category>vue</category>
       </categories>
       <tags>
-        <tag>css</tag>
+        <tag>vue</tag>
+        <tag>axios</tag>
       </tags>
   </entry>
   <entry>
@@ -1302,6 +1360,17 @@
       </tags>
   </entry>
   <entry>
+    <title>限制文字显示几行</title>
+    <url>/2020/05/24/%E9%99%90%E5%88%B6%E6%96%87%E5%AD%97%E6%98%BE%E7%A4%BA%E5%87%A0%E8%A1%8C/</url>
+    <content><![CDATA[<figure class="highlight css"><table><tr><td class="code"><pre><span class="line"><span class="selector-tag">display</span>: <span class="selector-tag">-webkit-box</span>;</span><br><span class="line"><span class="selector-tag">-webkit-line-clamp</span>: 2;</span><br><span class="line"><span class="selector-tag">-webkit-box-orient</span>: <span class="selector-tag">vertical</span>;</span><br><span class="line"><span class="selector-tag">overflow</span>: <span class="selector-tag">hidden</span>;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>css</category>
+      </categories>
+      <tags>
+        <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>默认以开发者模式打开谷歌</title>
     <url>/2020/05/24/%E9%BB%98%E8%AE%A4%E4%BB%A5%E5%BC%80%E5%8F%91%E8%80%85%E6%A8%A1%E5%BC%8F%E6%89%93%E5%BC%80%E8%B0%B7%E6%AD%8C/</url>
     <content><![CDATA[<p>右键谷歌浏览器，属性里填上<br>-incognito</p>
@@ -1311,39 +1380,6 @@
       </categories>
       <tags>
         <tag>小技巧</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>vue阻止默认表单提交与简单正则</title>
-    <url>/2020/05/24/vue%E9%98%BB%E6%AD%A2%E9%BB%98%E8%AE%A4%E8%A1%A8%E5%8D%95%E6%8F%90%E4%BA%A4%E4%B8%8E%E7%AE%80%E5%8D%95%E6%AD%A3%E5%B8%B8/</url>
-    <content><![CDATA[<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">&lt;form v-on:submit.prevent&#x3D;&quot;tj&quot;&gt; 阻止提交页面刷新 并执行 tj()方法 form里写</span><br></pre></td></tr></table></figure>
-<p> @submit.native.prevent=”save”<br> 提交    原生    阻止<br>//获取dom元素</p>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">placeholder</span>=<span class="string">"您的电话"</span> <span class="attr">type</span>=<span class="string">"number"</span> <span class="attr">name</span> <span class="attr">id</span> <span class="attr">ref</span>=<span class="string">"tel"</span> /&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">class</span>=<span class="string">"tj"</span> <span class="attr">value</span>=<span class="string">"提交留言"</span> <span class="attr">type</span>=<span class="string">"submit"</span> /&gt;</span></span><br></pre></td></tr></table></figure>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">tj() &#123;</span><br><span class="line">  <span class="keyword">var</span> tel = <span class="keyword">this</span>.$refs.tel.value;</span><br><span class="line">  <span class="keyword">var</span> name = <span class="keyword">this</span>.$refs.name.value;</span><br><span class="line">  <span class="keyword">var</span> text = <span class="keyword">this</span>.$refs.text.value;</span><br><span class="line">  <span class="keyword">if</span> (name == <span class="string">""</span>) &#123;</span><br><span class="line">    alert(<span class="string">"姓名不能为空"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (tel == <span class="string">""</span>) &#123;</span><br><span class="line">    alert(<span class="string">"手机号不能为空"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (text == <span class="string">""</span>) &#123;</span><br><span class="line">    alert(<span class="string">"留言内容不能为空"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125; <span class="keyword">else</span> <span class="keyword">if</span> (!<span class="regexp">/^1[3456789]\d&#123;9&#125;$/</span>.test(tel)) &#123;</span><br><span class="line">    alert(<span class="string">"手机号格式不正确"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">  &#125;</span><br><span class="line">  <span class="built_in">console</span>.log(name,tel,text);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>vue</category>
-      </categories>
-      <tags>
-        <tag>vue</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>小程序封装接口</title>
-    <url>/2020/05/31/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%B0%81%E8%A3%85%E6%8E%A5%E5%8F%A3/</url>
-    <content><![CDATA[<p>新建个js文件</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">export</span> <span class="keyword">const</span> request = <span class="function">(<span class="params">params</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">new</span> <span class="built_in">Promise</span>(<span class="function">(<span class="params">resolve,reject</span>)=&gt;</span>&#123;</span><br><span class="line">        wx.request(&#123;</span><br><span class="line">            ...params,</span><br><span class="line">            success:<span class="function">(<span class="params">res</span>)=&gt;</span>&#123;</span><br><span class="line">                resolve(res)</span><br><span class="line">            &#125;,</span><br><span class="line">            fail:<span class="function">(<span class="params">err</span>)=&gt;</span>&#123;</span><br><span class="line">                reject(err)</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>在要用到的页面的js上面</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123;</span><br><span class="line">  request</span><br><span class="line">&#125; <span class="keyword">from</span> <span class="string">"../../request/index.js"</span></span><br></pre></td></tr></table></figure>
-
-<p><img src="/images/pasted-13.png" alt="upload successful"></p>
-<p>使用</p>
-<figure class="highlight js"><table><tr><td class="code"><pre><span class="line">getFloorList() &#123;</span><br><span class="line">  request(&#123;</span><br><span class="line">    url: <span class="string">'xxxxxxxxxxx'</span></span><br><span class="line">  &#125;).then(<span class="function">(<span class="params">res</span>) =&gt;</span> &#123;</span><br><span class="line">    <span class="keyword">this</span>.setData(&#123;</span><br><span class="line">      floorList: res.data.message</span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;,</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 生命周期函数--监听页面加载</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">onLoad: <span class="function"><span class="keyword">function</span> (<span class="params">options</span>) </span>&#123;</span><br><span class="line">  <span class="keyword">this</span>.getFloorList()</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>]]></content>
-      <categories>
-        <category>小程序</category>
-      </categories>
-      <tags>
-        <tag>小程序</tag>
       </tags>
   </entry>
   <entry>
@@ -1358,6 +1394,43 @@
       </categories>
       <tags>
         <tag>css</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>小程序缓存</title>
+    <url>/2020/06/03/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E7%BC%93%E5%AD%98/</url>
+    <content><![CDATA[<p><img src="/images/pasted-14.png" alt="upload successful"></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">onLoad: function (options) &#123;</span><br><span class="line">  &#x2F;&#x2F;获取本地存储的数据</span><br><span class="line">  const Cates &#x3D; wx.getStorageSync(&#39;cates&#39;)</span><br><span class="line">  if (!Cates) &#123;</span><br><span class="line">    &#x2F;&#x2F;如果没有就进行请求</span><br><span class="line">    this.getCategory()</span><br><span class="line">  &#125; else &#123;</span><br><span class="line">    &#x2F;&#x2F;有旧数据</span><br><span class="line">    &#x2F;&#x2F;先判断过期没  10s</span><br><span class="line">    if (Date.now() - Cates.time &gt; 1000 * 10) &#123;</span><br><span class="line">      &#x2F;&#x2F;过期就重新发送请求</span><br><span class="line">      this.getCategory()</span><br><span class="line">    &#125; else &#123;</span><br><span class="line">      this.Cates &#x3D; Cates.data</span><br><span class="line">      &#x2F;&#x2F;左侧数据</span><br><span class="line">      let leftMenuList &#x3D; this.Cates.map(v &#x3D;&gt; v.cat_name)</span><br><span class="line">      let rightContent &#x3D; this.Cates[0].children</span><br><span class="line">      &#x2F;&#x2F;右侧数据</span><br><span class="line">      this.setData(&#123;</span><br><span class="line">        leftMenuList: leftMenuList,</span><br><span class="line">        rightContent: rightContent</span><br><span class="line">      &#125;)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+ <figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Cates:[],</span><br><span class="line">getCategory() &#123;</span><br><span class="line">   request(&#123;</span><br><span class="line">     url: &#39;https:&#x2F;&#x2F;api-hmugo-web.itheima.net&#x2F;api&#x2F;public&#x2F;v1&#x2F;categories&#39;</span><br><span class="line">   &#125;).then((res) &#x3D;&gt; &#123;</span><br><span class="line">     this.Cates &#x3D; res.data.message</span><br><span class="line">     &#x2F;&#x2F;把接口数据写入缓存</span><br><span class="line">     wx.setStorageSync(&#39;cates&#39;, &#123;time:Date.now(),data:this.Cates&#125;)</span><br><span class="line">        &#x2F;&#x2F;左侧数据</span><br><span class="line">       let leftMenuList &#x3D; this.Cates.map(v &#x3D;&gt; v.cat_name)</span><br><span class="line">       let rightContent &#x3D; this.Cates[0].children</span><br><span class="line">       &#x2F;&#x2F;右侧数据</span><br><span class="line">       this.setData(&#123;</span><br><span class="line">         leftMenuList: leftMenuList,</span><br><span class="line">         rightContent: rightContent</span><br><span class="line">       &#125;)</span><br><span class="line">   &#125;)</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>小程序</category>
+      </categories>
+      <tags>
+        <tag>小程序</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>创建本地git仓库完成版本控制</title>
+    <url>/2020/05/26/%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0git%E4%BB%93%E5%BA%93/</url>
+    <content><![CDATA[<p>创建本地git仓库</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git init &#x2F;&#x2F;会生成一个隐藏文件夹git</span><br></pre></td></tr></table></figure>
+<p>本地编写完代码后，将一些文件提交到暂存区</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git add xxx  &#x2F;&#x2F;将xxx提交到暂存区</span><br><span class="line">$ git add . 或者 -A   &#x2F;&#x2F;将所有最新修改的文件都提交到暂存区</span><br></pre></td></tr></table></figure>
+<p>把暂存区内容提交到历史区</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git commit -m&#39;这里写描述信息&#39;</span><br><span class="line">$ git log  &#x2F;&#x2F;查看历史版本信息</span><br><span class="line">$ git reflog &#x2F;&#x2F;查看历史版本信息(包含回滚的信息)</span><br></pre></td></tr></table></figure>
+<p>将历史区的文件回滚到本地</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">$ git reset --hard xxxxxxxxxxxxxxxx   &#x2F;&#x2F;xxx是要回退的版本号</span><br></pre></td></tr></table></figure>
+
+
+<p>当我们需要删除暂存区或分支上的文件, 同时工作区也不需要这个文件了, 可以使用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git rm 文件名</span><br><span class="line">git commit -m &#39;delete somefile&#39;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>
+<p>当我们需要删除暂存区或分支上的文件, 但本地又需要使用, 只是不希望这个文件被版本控制, 可以使用</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git rm --cached 文件名</span><br><span class="line">git commit -m &#39;delete remote somefile&#39;</span><br><span class="line">git push</span><br></pre></td></tr></table></figure>]]></content>
+      <categories>
+        <category>git</category>
+      </categories>
+      <tags>
+        <tag>git</tag>
       </tags>
   </entry>
 </search>
